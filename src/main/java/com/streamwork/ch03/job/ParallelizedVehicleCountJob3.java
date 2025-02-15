@@ -7,7 +7,7 @@ import com.streamwork.ch03.engine.WorkerStarter;
 
 public class ParallelizedVehicleCountJob3 {
 
-  public static void main(String[] args) {
+  public static void main(String[] args) throws Exception {
     Job job = new Job("parallelized_vehicle_count");
 
 //    Stream bridgeStream = job.addSource(new SensorReader("sensor-reader", 2, 9990));
@@ -31,8 +31,8 @@ public class ParallelizedVehicleCountJob3 {
       e.printStackTrace(); // 打印错误信息
     }
 
-    WorkerStarter workerStarter = new WorkerStarter(job);
-    workerStarter.start();
+    WorkerStarter workerStarter = new WorkerStarter();
+    workerStarter.start(9992);
 
   }
 }

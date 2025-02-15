@@ -16,7 +16,7 @@ public abstract class InstanceExecutor extends Process {
   // Data queues for the upstream processes
   protected EventQueue incomingQueue = null;
   // Data queue for the downstream processes
-  protected EventQueue outgoingQueue = null;
+  protected CommonEventQueue outgoingQueue = null;
 
   public InstanceExecutor() { }
 
@@ -24,7 +24,7 @@ public abstract class InstanceExecutor extends Process {
     incomingQueue = queue;
   }
 
-  public void setOutgoingQueue(EventQueue queue) {
+  public void setOutgoingQueue(CommonEventQueue queue) {
     outgoingQueue = queue;
   }
 }

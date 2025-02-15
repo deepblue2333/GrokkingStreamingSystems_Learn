@@ -84,7 +84,7 @@ public class DistributedJobStarter extends RpcNode {
             SourceExecutor executor = new SourceExecutor(source);
             executorList.add(executor);
 
-            Task t = new Task(allocateId(), source.getName(), source.getParallelism(), allocateAddress());
+            Task t = new Task(allocateId(), source.getName(), source.getParallelism(), allocateAddress(), source);
             tasksMap.put(t.getId(), t);
             tasks.add(t);
             // For each source, traverse the operations connected to it.
@@ -153,7 +153,7 @@ public class DistributedJobStarter extends RpcNode {
             OperatorExecutor operatorExecutor = new OperatorExecutor(operator);
             executorList.add(operatorExecutor);
 
-            Task t = new Task(allocateId(), operator.getName(), operator.getParallelism(), allocateAddress());
+            Task t = new Task(allocateId(), operator.getName(), operator.getParallelism(), allocateAddress(), operator);
             tasksMap.put(t.getId(), t);
             tasks.add(t);
 

@@ -34,11 +34,14 @@ public class SourceInstanceExecutor extends InstanceExecutor {
     try {
       for (Event event: eventCollector) {
         outgoingQueue.put(event);
+        System.out.println("Event Put: " + event.getData());
       }
       eventCollector.clear();
     } catch (InterruptedException e) {
       return false;  // exit thread
+    } catch (Exception e) {
+        throw new RuntimeException(e);
     }
-    return true;
+      return true;
   }
 }

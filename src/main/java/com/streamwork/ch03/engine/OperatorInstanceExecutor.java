@@ -42,7 +42,9 @@ public class OperatorInstanceExecutor extends InstanceExecutor {
       eventCollector.clear();
     } catch (InterruptedException e) {
       return false;  // exit thread
+    } catch (Exception e) {
+        throw new RuntimeException(e);
     }
-    return true;
+      return true;
   }
 }

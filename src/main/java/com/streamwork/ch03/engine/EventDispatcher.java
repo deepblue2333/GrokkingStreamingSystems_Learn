@@ -10,7 +10,7 @@ import com.streamwork.ch03.api.GroupingStrategy;
  */
 public class EventDispatcher extends Process {
   private final OperatorExecutor downstreamExecutor;
-  private EventQueue incomingQueue = null;
+  public EventQueue incomingQueue = null;
   private EventQueue [] outgoingQueues = null;
 
   public EventDispatcher(OperatorExecutor downstreamExecutor) {
