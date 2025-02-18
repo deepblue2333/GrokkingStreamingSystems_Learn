@@ -50,11 +50,11 @@ public class WorkerStarter extends RpcNode {
     public synchronized void requireTask() {
         System.out.println("WorkerStarter: Requiring task...");
 
-//        Task t = JSON.parseObject(
-//                call("127.0.0.1", 9992, "requireTask", new Object[]{}).toString(),
-//                Task.class);
+        Task t = JSON.parseObject(
+                call("127.0.0.1", 9992, "requireTask", new Object[]{}).toString(),
+                Task.class);
         // 模拟一个任务数据
-        Task t = new Task(1, "Source", 2, "192.168.0.1", new ContinuousVehicleSource("ContinuousVehicleSource", 2, 1000));
+//        Task t = new Task(1, "Source", 2, "192.168.0.1", new ContinuousVehicleSource("ContinuousVehicleSource", 2, 1000));
 
         if (t.getTaskType().equals("Source")) {
             setupSource(t);
@@ -62,18 +62,7 @@ public class WorkerStarter extends RpcNode {
         } else {
             startExecutor(t);
         }
-        informRequireTask(t);
-
-    }
-    public synchronized void informRequireTask(Task t) {
-        // 将任务信息以JSON格式发送到主节点，通知它当前任务已经准备就绪
-        System.out.println("WorkerStarter: Informing task " + t.getId());
-
-        String taskJson = JSON.toJSONString(t);
-        System.out.println(taskJson);
-        // 假设使用RPC发送任务信息
-        call("127.0.0.1", 9992, "informRequireTask", new Object[]{taskJson});
-        System.out.println(taskJson);
+//        informRequireTask(t);
 
     }
 
