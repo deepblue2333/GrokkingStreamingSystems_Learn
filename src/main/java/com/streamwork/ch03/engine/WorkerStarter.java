@@ -4,8 +4,14 @@ import com.alibaba.fastjson.JSON;
 import com.streamwork.ch03.api.*;
 import com.streamwork.ch03.common.Task;
 import com.streamwork.ch03.func.ApplyFunc;
+import com.streamwork.ch03.job.ContinuousVehicleSource;
 import com.streamwork.ch03.rpc.io.RpcNode;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.Socket;
 import java.util.*;
 import java.util.concurrent.Executor;
 
@@ -20,7 +26,7 @@ public class WorkerStarter extends RpcNode {
 //    private final List<Connection> connectionList = new ArrayList<Connection>();
 
     // 工作节点运行的执行器
-    static class MyExecutor {
+    public static class MyExecutor {
         int id; // 执行器实例id
         int parallelism; // 执行器实例数
         EventDispatcher dispatcher; // 流管理器
@@ -29,7 +35,7 @@ public class WorkerStarter extends RpcNode {
     }
 
     // 执行器索引
-    private final HashMap<Integer, MyExecutor> executorMap = new HashMap<Integer, MyExecutor>();
+    public final HashMap<Integer, MyExecutor> executorMap = new HashMap<Integer, MyExecutor>();
 
     public WorkerStarter() {
     }
@@ -41,53 +47,83 @@ public class WorkerStarter extends RpcNode {
     }
 
     /* 被调用以获取算子任务 */
-    private synchronized void requireTask() {
-        Task t = JSON.parseObject(
-                call("127.0.0.1", 9992, "requireTask", new Object[]{}).toString(),
-                Task.class);
+    public synchronized void requireTask() {
+        System.out.println("WorkerStarter: Requiring task...");
+
+//        Task t = JSON.parseObject(
+//                call("127.0.0.1", 9992, "requireTask", new Object[]{}).toString(),
+//                Task.class);
+        // 模拟一个任务数据
+        Task t = new Task(1, "Source", 2, "192.168.0.1", new ContinuousVehicleSource("ContinuousVehicleSource", 2, 1000));
+
         if (t.getTaskType().equals("Source")) {
             setupSource(t);
+
         } else {
             startExecutor(t);
         }
+        informRequireTask(t);
+
+    }
+    public synchronized void informRequireTask(Task t) {
+        // 将任务信息以JSON格式发送到主节点，通知它当前任务已经准备就绪
+        System.out.println("WorkerStarter: Informing task " + t.getId());
+
+        String taskJson = JSON.toJSONString(t);
+        System.out.println(taskJson);
+        // 假设使用RPC发送任务信息
+        call("127.0.0.1", 9992, "informRequireTask", new Object[]{taskJson});
+        System.out.println(taskJson);
+
     }
 
     public void setupSource(Task t) {
+
         SourceExecutor executor = new SourceExecutor((Source) t.getComponent());
+        System.out.println(t.getId());
 //        EventQueue downstream = new EventQueue(QUEUE_SIZE);
         String address = askNextNodeAddress(t.getId());
+        System.out.println(t.getId());
         int port = askNextNodePort(t.getId());
         int id = askNextNodeId(t.getId());
+
         DistributedEventQueue downstream = new DistributedEventQueue(address, port, id);
+
         executor.setOutgoingQueue(downstream);
-//        executor.start();
+        executor.start();
+
 
         MyExecutor e = new MyExecutor();
         e.executor = executor;
         e.id = t.getId();
         e.parallelism = t.getParallelism();
         executorMap.put(e.id, e);
+
+
     }
 
-    private int askNextNodeId(Integer id) {
+    public int askNextNodeId(Integer id) {
         int nextId = JSON.parseObject(
                 call("127.0.0.1", 9992, "askNextNodeId", new Object[]{id}).toString(),
                 int.class);
         return nextId;
+//          return 1;
     }
 
-    private int askNextNodePort(Integer id) {
+    public int askNextNodePort(Integer id) {
         int port = JSON.parseObject(
                 call("127.0.0.1", 9992, "askNextNodePort", new Object[]{id}).toString(),
                 int.class);
         return port;
+//        return  8000;
     }
 
-    private String askNextNodeAddress(Integer id) {
+    public String askNextNodeAddress(Integer id) {
         String address = JSON.parseObject(
             call("127.0.0.1", 9992, "askNextNodeAddress", new Object[]{id}).toString(),
             String.class);
         return address;
+//        return "192.168.88.1";
     }
 
     public void startSource(int id) {
@@ -133,7 +169,44 @@ public class WorkerStarter extends RpcNode {
         myExecutor.dispatcher.incomingQueue.add(event);
         return 1;
     }
+    public Object call(String ipAddress, int port, String method, Object[] params) {
+        try {
+            // 与 Netcat 服务建立连接
+            Socket socket = new Socket(ipAddress, port);
+            PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
+            BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 
+            // 构造请求内容
+            String request = method + " " + Arrays.toString(params);
+            System.out.println("Sending request: " + request);
+            out.println(request);  // 发送请求
+
+            // 等待响应
+            String response = in.readLine();  // 读取响应
+            System.out.println("Received response: " + response);
+
+            // 返回响应
+            return response;
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+    // 测试方法
+    public void test() {
+        // 模拟调用 askNextNodeId
+//        int nodeId = Integer.parseInt((String) call("127.0.0.1", 9992, "askNextNodeId", new Object[]{1}));
+//        System.out.println("Next Node ID: " + nodeId);
+//
+//        // 模拟调用 askNextNodePort
+//        int port = Integer.parseInt((String) call("127.0.0.1", 9992, "askNextNodePort", new Object[]{1}));
+//        System.out.println("Next Node Port: " + port);
+
+        // 模拟调用 askNextNodeAddress
+        String address = (String) call("127.0.0.1", 9992, "askNextNodeAddress", new Object[]{1});
+        System.out.println("Next Node Address: " + address);
+    }
 }
 
     /**
