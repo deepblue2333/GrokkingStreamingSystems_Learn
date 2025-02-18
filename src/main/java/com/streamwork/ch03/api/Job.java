@@ -27,6 +27,7 @@ public class Job {
     }
 
     sourceSet.add(source);
+    System.out.println("success addsource");
     return source.getOutgoingStream();
   }
 

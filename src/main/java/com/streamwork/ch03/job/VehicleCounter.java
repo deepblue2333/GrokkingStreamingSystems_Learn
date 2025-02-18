@@ -10,7 +10,7 @@ import com.streamwork.ch03.api.Event;
 import com.streamwork.ch03.api.GroupingStrategy;
 import com.streamwork.ch03.api.Operator;
 
-class VehicleCounter extends Operator {
+public class VehicleCounter extends Operator {
   private static final long serialVersionUID = 1L;
 
   private Map<String, Integer> countMap = new HashMap<String, Integer>();

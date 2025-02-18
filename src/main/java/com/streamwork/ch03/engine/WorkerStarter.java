@@ -1,6 +1,7 @@
 package com.streamwork.ch03.engine;
 
 import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.streamwork.ch03.api.*;
 import com.streamwork.ch03.common.Task;
 import com.streamwork.ch03.func.ApplyFunc;
@@ -16,6 +17,7 @@ import java.util.*;
 import java.util.concurrent.Executor;
 
 public class WorkerStarter extends RpcNode {
+    private final Set<Integer> processedTasks = new HashSet<>();
     // 设置队列容量
     private final static int QUEUE_SIZE = 64;
     // The job to start
@@ -44,6 +46,8 @@ public class WorkerStarter extends RpcNode {
     public void start(int port) throws Exception {
         setPort(port);
         serve();
+        System.out.println("success worker");
+//        requireTask();
     }
 
     /* 被调用以获取算子任务 */
@@ -58,12 +62,18 @@ public class WorkerStarter extends RpcNode {
 
         if (t.getTaskType().equals("Source")) {
             setupSource(t);
+            System.out.println("SUCCESS");
 
         } else {
             startExecutor(t);
         }
 //        informRequireTask(t);
+        processedTasks.add(t.getId());
+    }
 
+    // 获取已处理的任务
+    public Set<Integer> getProcessedTasks() {
+        return processedTasks;
     }
 
     public void setupSource(Task t) {
@@ -166,7 +176,12 @@ public class WorkerStarter extends RpcNode {
             BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 
             // 构造请求内容
-            String request = method + " " + Arrays.toString(params);
+//            String request = method + " " + Arrays.toString(params);
+            JSONObject request = new JSONObject();
+            request.put("method", method);
+            request.put("params", params);
+            out.println(request.toJSONString());
+
             System.out.println("Sending request: " + request);
             out.println(request);  // 发送请求
 

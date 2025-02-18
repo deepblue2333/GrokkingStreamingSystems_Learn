@@ -151,3 +151,223 @@ Sat Feb 15 15:18:06 CST 2025-server started on port:11832
 Sat Feb 15 15:18:06 CST 2025-method: fooparams: [Ljava.lang.Object;@300343ec resp: null
 Tue Feb 18 18:18:51 CST 2025-server started on port:9992
 Tue Feb 18 18:19:34 CST 2025-server started on port:9992
+Tue Feb 18 22:49:32 CST 2025-server started on port:9992
+Tue Feb 18 22:49:32 CST 2025-server started on port:9993
+Tue Feb 18 22:51:20 CST 2025-server started on port:9992
+Tue Feb 18 22:51:20 CST 2025-server started on port:9993
+Tue Feb 18 22:52:23 CST 2025-server started on port:9992
+Tue Feb 18 22:52:23 CST 2025-server started on port:9993
+Tue Feb 18 22:52:30 CST 2025-server started on port:9992
+Tue Feb 18 22:52:30 CST 2025-server started on port:9993
+Tue Feb 18 22:56:20 CST 2025-server started on port:9992
+Tue Feb 18 22:56:20 CST 2025-server started on port:9993
+Tue Feb 18 23:06:03 CST 2025-server started on port:9992
+Tue Feb 18 23:06:03 CST 2025-server started on port:9993
+Tue Feb 18 23:07:14 CST 2025-server started on port:9992
+Tue Feb 18 23:07:14 CST 2025-server started on port:9993
+Tue Feb 18 23:08:08 CST 2025-server started on port:9992
+Tue Feb 18 23:08:08 CST 2025-server started on port:9993
+Tue Feb 18 23:08:57 CST 2025-server started on port:9992
+Tue Feb 18 23:08:57 CST 2025-server started on port:9993
+Tue Feb 18 23:09:42 CST 2025-server started on port:9992
+Tue Feb 18 23:09:42 CST 2025-server started on port:9993
+Tue Feb 18 23:15:13 CST 2025-server started on port:9992
+Tue Feb 18 23:19:54 CST 2025-server started on port:9992
+Tue Feb 18 23:19:54 CST 2025-server started on port:9993
+Tue Feb 18 23:20:46 CST 2025-server started on port:9992
+Tue Feb 18 23:23:47 CST 2025-server started on port:9992
+Tue Feb 18 23:23:47 CST 2025-server started on port:9993
+Tue Feb 18 23:29:39 CST 2025-server started on port:9992
+Tue Feb 18 23:29:39 CST 2025-server started on port:9993
+Tue Feb 18 23:29:39 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@5e17553a resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:14610","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 18 23:29:39 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@7bf3a5d8 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.2:14216","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 18 23:37:38 CST 2025-server started on port:9992
+Tue Feb 18 23:37:38 CST 2025-server started on port:9993
+Tue Feb 18 23:37:38 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@5e17553a resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:14193","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 18 23:37:38 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@7bf3a5d8 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.2:14806","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 18 23:39:36 CST 2025-server started on port:9992
+Tue Feb 18 23:39:36 CST 2025-server started on port:9993
+Tue Feb 18 23:39:36 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@5e17553a resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:14256","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 18 23:39:36 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@7bf3a5d8 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.2:14065","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 18 23:40:55 CST 2025-server started on port:9992
+Tue Feb 18 23:40:55 CST 2025-server started on port:9993
+Tue Feb 18 23:40:55 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@5e17553a resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:14018","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 18 23:40:55 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@7bf3a5d8 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.2:14890","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 18 23:42:03 CST 2025-server started on port:9992
+Tue Feb 18 23:42:03 CST 2025-server started on port:9993
+Tue Feb 18 23:42:03 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@5e17553a resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:14265","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 18 23:42:03 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@7bf3a5d8 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.2:14918","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 18 23:43:23 CST 2025-server started on port:9992
+Tue Feb 18 23:43:23 CST 2025-server started on port:9993
+Tue Feb 18 23:43:23 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@5e17553a resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:14884","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 18 23:43:23 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@7bf3a5d8 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.2:14992","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 18 23:43:57 CST 2025-server started on port:9992
+Tue Feb 18 23:43:57 CST 2025-server started on port:9993
+Tue Feb 18 23:43:58 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@5e17553a resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:14830","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 18 23:43:58 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@7bf3a5d8 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.2:14753","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 18 23:45:08 CST 2025-server started on port:9992
+Tue Feb 18 23:45:08 CST 2025-server started on port:9993
+Tue Feb 18 23:45:09 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@16c069df resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:14680","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 18 23:45:09 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@4d6025c5 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.2:14453","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 18 23:49:28 CST 2025-server started on port:9992
+Tue Feb 18 23:49:28 CST 2025-server started on port:9993
+Tue Feb 18 23:49:28 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@16c069df resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:14383","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 18 23:49:28 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@4d6025c5 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.2:14249","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 18 23:50:02 CST 2025-server started on port:9992
+Tue Feb 18 23:50:02 CST 2025-server started on port:9993
+Tue Feb 18 23:50:02 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@5e17553a resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:14391","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 18 23:50:02 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@7bf3a5d8 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.2:14504","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 18 23:50:25 CST 2025-server started on port:9992
+Tue Feb 18 23:50:25 CST 2025-server started on port:9993
+Tue Feb 18 23:50:25 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@16c069df resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:14305","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 18 23:50:25 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@4d6025c5 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.2:14479","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 18 23:51:02 CST 2025-server started on port:9992
+Tue Feb 18 23:51:02 CST 2025-server started on port:9993
+Tue Feb 18 23:51:02 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@16c069df resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:14914","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 18 23:51:02 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@4d6025c5 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.2:14738","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 18 23:57:14 CST 2025-server started on port:9992
+Tue Feb 18 23:57:14 CST 2025-server started on port:9993
+Tue Feb 18 23:57:14 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@16c069df resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:14131","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 18 23:57:14 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@4d6025c5 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.2:14421","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 18 23:58:20 CST 2025-server started on port:9992
+Tue Feb 18 23:58:20 CST 2025-server started on port:9993
+Tue Feb 18 23:58:20 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@16c069df resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:14553","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 18 23:58:20 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@4d6025c5 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.2:14962","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 18 23:58:39 CST 2025-server started on port:9992
+Tue Feb 18 23:58:39 CST 2025-server started on port:9993
+Tue Feb 18 23:58:39 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@16c069df resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:14582","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 18 23:58:39 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@4d6025c5 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.2:14446","parallelism":2,"taskType":"VehicleMapper"}
+Wed Feb 19 00:02:05 CST 2025-server started on port:9992
+Wed Feb 19 00:02:05 CST 2025-server started on port:9993
+Wed Feb 19 00:02:05 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@16c069df resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:14696","parallelism":2,"taskType":"VehicleSource"}
+Wed Feb 19 00:02:05 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@4d6025c5 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.2:14181","parallelism":2,"taskType":"VehicleMapper"}
+Wed Feb 19 00:04:18 CST 2025-server started on port:9992
+Wed Feb 19 00:04:18 CST 2025-server started on port:9993
+Wed Feb 19 00:04:18 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@5e21e98f resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:14536","parallelism":2,"taskType":"VehicleSource"}
+Wed Feb 19 00:04:18 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@748741cb resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.2:14380","parallelism":2,"taskType":"VehicleMapper"}
+Wed Feb 19 00:04:44 CST 2025-server started on port:9992
+Wed Feb 19 00:04:44 CST 2025-server started on port:9993
+Wed Feb 19 00:04:44 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@5e21e98f resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:14792","parallelism":2,"taskType":"VehicleSource"}
+Wed Feb 19 00:04:44 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@748741cb resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.2:14276","parallelism":2,"taskType":"VehicleMapper"}
+Wed Feb 19 00:06:11 CST 2025-server started on port:9992
+Wed Feb 19 00:06:11 CST 2025-server started on port:9993
+Wed Feb 19 00:06:11 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@5e21e98f resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:14675","parallelism":2,"taskType":"VehicleSource"}
+Wed Feb 19 00:06:11 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@748741cb resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.2:14015","parallelism":2,"taskType":"VehicleMapper"}
+Wed Feb 19 00:07:06 CST 2025-server started on port:9992
+Wed Feb 19 00:07:06 CST 2025-server started on port:9993
+Wed Feb 19 00:07:06 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@5e21e98f resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:14875","parallelism":2,"taskType":"VehicleSource"}
+Wed Feb 19 00:07:06 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@748741cb resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.2:14412","parallelism":2,"taskType":"VehicleMapper"}
+Wed Feb 19 00:14:10 CST 2025-server started on port:9992
+Wed Feb 19 00:14:10 CST 2025-server started on port:9993
+Wed Feb 19 00:14:10 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@5e21e98f resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:14898","parallelism":2,"taskType":"VehicleSource"}
+Wed Feb 19 00:14:10 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@748741cb resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.2:14954","parallelism":2,"taskType":"VehicleMapper"}
+Wed Feb 19 00:36:11 CST 2025-server started on port:9992
+Wed Feb 19 00:36:11 CST 2025-server started on port:9993
+Wed Feb 19 00:36:11 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@5e21e98f resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:14533","parallelism":2,"taskType":"VehicleSource"}
+Wed Feb 19 00:36:11 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@748741cb resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.2:14841","parallelism":2,"taskType":"VehicleMapper"}
+Wed Feb 19 00:37:35 CST 2025-server started on port:9992
+Wed Feb 19 00:37:35 CST 2025-server started on port:9993
+Wed Feb 19 00:37:35 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@5e21e98f resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:14664","parallelism":2,"taskType":"VehicleSource"}
+Wed Feb 19 00:37:35 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@748741cb resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.2:14647","parallelism":2,"taskType":"VehicleMapper"}
+Wed Feb 19 00:38:22 CST 2025-server started on port:9992
+Wed Feb 19 00:38:22 CST 2025-server started on port:9993
+Wed Feb 19 00:38:23 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@5e21e98f resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:14841","parallelism":2,"taskType":"VehicleSource"}
+Wed Feb 19 00:38:23 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@748741cb resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.2:14068","parallelism":2,"taskType":"VehicleMapper"}
+Wed Feb 19 00:40:34 CST 2025-server started on port:9992
+Wed Feb 19 00:40:34 CST 2025-server started on port:9993
+Wed Feb 19 00:41:40 CST 2025-server started on port:9992
+Wed Feb 19 00:41:40 CST 2025-server started on port:9993
+Wed Feb 19 00:41:40 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@5e21e98f resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:14083","parallelism":2,"taskType":"VehicleSource"}
+Wed Feb 19 00:41:40 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@748741cb resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.2:14894","parallelism":2,"taskType":"VehicleMapper"}
+Wed Feb 19 00:44:10 CST 2025-server started on port:9992
+Wed Feb 19 00:44:10 CST 2025-server started on port:9993
+Wed Feb 19 00:46:31 CST 2025-server started on port:9992
+Wed Feb 19 00:46:31 CST 2025-server started on port:9993
+Wed Feb 19 00:46:31 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@5e21e98f resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:14974","parallelism":2,"taskType":"VehicleSource"}
+Wed Feb 19 00:46:31 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@748741cb resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.2:14316","parallelism":2,"taskType":"VehicleMapper"}
+Wed Feb 19 00:47:09 CST 2025-server started on port:9992
+Wed Feb 19 00:47:09 CST 2025-server started on port:9993
+Wed Feb 19 00:49:45 CST 2025-server started on port:9992
+Wed Feb 19 00:49:45 CST 2025-server started on port:9993
+Wed Feb 19 00:52:52 CST 2025-server started on port:9992
+Wed Feb 19 00:52:52 CST 2025-server started on port:9993
+Wed Feb 19 00:53:29 CST 2025-server started on port:9992
+Wed Feb 19 00:53:29 CST 2025-server started on port:9993
+Wed Feb 19 00:53:29 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@5e21e98f resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:14631","parallelism":2,"taskType":"VehicleSource"}
+Wed Feb 19 00:53:29 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@748741cb resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.2:14390","parallelism":2,"taskType":"VehicleMapper"}
+Wed Feb 19 00:58:25 CST 2025-server started on port:9992
+Wed Feb 19 00:58:25 CST 2025-server started on port:9993
+Wed Feb 19 00:58:58 CST 2025-server started on port:9992
+Wed Feb 19 00:58:58 CST 2025-server started on port:9993
+Wed Feb 19 00:58:58 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@5e21e98f resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:14170","parallelism":2,"taskType":"VehicleSource"}
+Wed Feb 19 00:58:58 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@748741cb resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.2:14292","parallelism":2,"taskType":"VehicleMapper"}
+Wed Feb 19 00:59:12 CST 2025-server started on port:9992
+Wed Feb 19 00:59:12 CST 2025-server started on port:9993
+Wed Feb 19 01:00:42 CST 2025-server started on port:9992
+Wed Feb 19 01:00:42 CST 2025-server started on port:9993
+Wed Feb 19 01:03:26 CST 2025-server started on port:9992
+Wed Feb 19 01:03:26 CST 2025-server started on port:9993
+Wed Feb 19 01:04:03 CST 2025-server started on port:9992
+Wed Feb 19 01:04:03 CST 2025-server started on port:9993
+Wed Feb 19 01:04:03 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@5e21e98f resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14517","parallelism":2,"taskType":"VehicleSource"}
+Wed Feb 19 01:04:03 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@748741cb resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14271","parallelism":2,"taskType":"VehicleMapper"}
+Wed Feb 19 01:05:26 CST 2025-server started on port:9992
+Wed Feb 19 01:05:26 CST 2025-server started on port:9993
+Wed Feb 19 01:07:10 CST 2025-server started on port:9992
+Wed Feb 19 01:07:10 CST 2025-server started on port:9993
+Wed Feb 19 01:07:34 CST 2025-server started on port:9992
+Wed Feb 19 01:07:34 CST 2025-server started on port:9993
+Wed Feb 19 01:07:35 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@5e21e98f resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14666","parallelism":2,"taskType":"VehicleSource"}
+Wed Feb 19 01:07:35 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@748741cb resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14912","parallelism":2,"taskType":"VehicleMapper"}
+Wed Feb 19 01:11:31 CST 2025-server started on port:9992
+Wed Feb 19 01:11:31 CST 2025-server started on port:9993
+Wed Feb 19 01:16:21 CST 2025-server started on port:9992
+Wed Feb 19 01:16:21 CST 2025-server started on port:9993
+Wed Feb 19 01:19:01 CST 2025-server started on port:9992
+Wed Feb 19 01:19:02 CST 2025-server started on port:9993
+Wed Feb 19 01:19:52 CST 2025-server started on port:9992
+Wed Feb 19 01:19:52 CST 2025-server started on port:9993
+Wed Feb 19 01:20:30 CST 2025-server started on port:9992
+Wed Feb 19 01:20:30 CST 2025-server started on port:9993
+Wed Feb 19 01:25:36 CST 2025-server started on port:9992
+Wed Feb 19 01:25:36 CST 2025-server started on port:9993
+Wed Feb 19 01:25:36 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@5e21e98f resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14322","parallelism":2,"taskType":"VehicleSource"}
+Wed Feb 19 01:25:36 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@748741cb resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14922","parallelism":2,"taskType":"VehicleMapper"}
+Wed Feb 19 01:29:28 CST 2025-server started on port:9992
+Wed Feb 19 01:29:28 CST 2025-server started on port:9993
+Wed Feb 19 01:32:42 CST 2025-server started on port:9992
+Wed Feb 19 01:32:42 CST 2025-server started on port:9993
+Wed Feb 19 01:39:33 CST 2025-server started on port:9992
+Wed Feb 19 01:39:33 CST 2025-server started on port:9993
+Wed Feb 19 01:43:29 CST 2025-server started on port:9992
+Wed Feb 19 01:43:29 CST 2025-server started on port:9993
+Wed Feb 19 01:50:23 CST 2025-server started on port:9992
+Wed Feb 19 01:50:23 CST 2025-server started on port:9993
+Wed Feb 19 01:53:42 CST 2025-server started on port:9992
+Wed Feb 19 01:53:42 CST 2025-server started on port:9993
+Wed Feb 19 01:55:28 CST 2025-server started on port:9992
+Wed Feb 19 01:55:28 CST 2025-server started on port:9993
+Wed Feb 19 01:58:24 CST 2025-server started on port:9992
+Wed Feb 19 01:58:24 CST 2025-server started on port:9993
+Wed Feb 19 01:59:27 CST 2025-server started on port:9992
+Wed Feb 19 01:59:27 CST 2025-server started on port:9993
+Wed Feb 19 02:01:20 CST 2025-server started on port:9992
+Wed Feb 19 02:01:20 CST 2025-server started on port:9993
+Wed Feb 19 02:03:06 CST 2025-server started on port:9992
+Wed Feb 19 02:03:06 CST 2025-server started on port:9993
+Wed Feb 19 02:03:49 CST 2025-server started on port:9992
+Wed Feb 19 02:03:49 CST 2025-server started on port:9993
+Wed Feb 19 02:04:15 CST 2025-server started on port:9992
+Wed Feb 19 02:04:15 CST 2025-server started on port:9993
+Wed Feb 19 02:05:15 CST 2025-server started on port:9992
+Wed Feb 19 02:05:15 CST 2025-server started on port:9993
+Wed Feb 19 02:05:44 CST 2025-server started on port:9992
+Wed Feb 19 02:05:44 CST 2025-server started on port:9993
+Wed Feb 19 02:06:25 CST 2025-server started on port:9992
+Wed Feb 19 02:06:25 CST 2025-server started on port:9993
+Wed Feb 19 02:06:39 CST 2025-server started on port:9992
+Wed Feb 19 02:06:39 CST 2025-server started on port:9993
+Wed Feb 19 02:06:54 CST 2025-server started on port:9992
+Wed Feb 19 02:06:54 CST 2025-server started on port:9993
+Wed Feb 19 02:17:30 CST 2025-server started on port:9992
+Wed Feb 19 02:17:30 CST 2025-server started on port:9993

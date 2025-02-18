@@ -11,7 +11,9 @@ import com.streamwork.ch03.api.Source;
 import com.streamwork.ch03.api.Stream;
 import com.streamwork.ch03.common.Task;
 import com.streamwork.ch03.rpc.io.RpcNode;
+import lombok.Data;
 
+@Data
 public class DistributedJobStarter extends RpcNode {
     // 设置队列容量
     private final static int QUEUE_SIZE = 64;
@@ -29,20 +31,33 @@ public class DistributedJobStarter extends RpcNode {
     private final HashMap<Integer, Task> tasksMap = new HashMap<Integer, Task>();
     private final ConcurrentLinkedDeque<Task> tasks = new ConcurrentLinkedDeque<>();
 
-    private final List<String> know_hosts = new ArrayList<String>(List.of("127.0.0.1", "127.0.0.2"));
+    private final List<String> know_hosts = new ArrayList<String>(List.of("127.0.0.2", "127.0.0.3"));
     private final Set<String> allocatedAddresses = new TreeSet<>();
 
     private int count = 0;
 
     // Connections between component executors 组件间的连接器
     private final List<Connection> connectionList = new ArrayList<Connection>();
+    private final Map<Integer, Record> taskRecords = new HashMap<>();
 
     public static class Record {
         int id;
         String host;
         int port;
-        Record(int id, String host, int port) {}
+        Record(int id, String host, int port) {
+            this.id = id;  // 添加初始化
+            this.host = host;
+            this.port = port;
+        }
+        @Override
+        public String toString() {
+            return "Record{id=" + id + ", host='" + host + "', port=" + port + "}";
+        }
     }
+    public Map<Integer, Record> getTaskRecords() {
+        return taskRecords;
+    }
+
 
     // 把job赋给该实例类
     public DistributedJobStarter(Job job) {
@@ -60,6 +75,7 @@ public class DistributedJobStarter extends RpcNode {
         // 设置服务端口为9992
         setPort(9992);
         serve();
+        System.out.println("success startjob");
 
         // All components are created now. Build the connections to connect the components together.
 //        setupConnections();
@@ -70,9 +86,10 @@ public class DistributedJobStarter extends RpcNode {
 
     public void startDistributeTask() {
         /* ToDo 轮流给每个工作节点指派任务 */
-        informRequireTask("127.0.0.1", 9992);
-        /* ToDo 记录指派信息 */
-        new HashMap<Integer, Record>();
+        informRequireTask();
+        System.out.println("TASKS"+tasks);
+
+//        new HashMap<Integer, Record>();
     }
 
     public int askNextNodeId(int nodeId) {
@@ -80,10 +97,38 @@ public class DistributedJobStarter extends RpcNode {
         return t.getId();
     }
 
+//    private Task findNextNode(int nodeId) {
+//        /* ToDo 在Dag中找到指定节点的下一个节点 */
+//        int nextNodeId = nodeId + 1;
+//        return tasksMap.get(nextNodeId);
+//    }
     private Task findNextNode(int nodeId) {
-        /* ToDo 在Dag中找到指定节点的下一个节点 */
-        int nextNodeId = nodeId + 1;
-        return tasksMap.get(nextNodeId);
+        // 获取当前任务
+        Task currentTask = tasksMap.get(nodeId);
+        if (currentTask == null) {
+            System.out.println("Task with ID " + nodeId + " not found.");
+            return null;
+        }
+
+        // 获取当前任务的组件
+        Component currentComponent = currentTask.getComponent();
+
+        // 假设每个组件都有一个 "outgoingStream" 来表示任务流
+        Stream currentStream = currentComponent.getOutgoingStream();
+
+        // 遍历流中的每个操作符
+        for (Operator operator : currentStream.getAppliedOperators()) {
+            // 对每个操作符，查找连接的下游任务
+            for (Task task : tasksMap.values()) {
+                // 如果该任务的组件与当前操作符相匹配，则认为它是下游任务
+                if (task.getComponent().equals(operator)) {
+                    return task;  // 找到下一个任务（下游任务）
+                }
+            }
+        }
+
+        // 如果没有找到下游任务，返回 null
+        return null;
     }
 
 
@@ -92,24 +137,39 @@ public class DistributedJobStarter extends RpcNode {
      *
      * @return
      */
-    public synchronized Task requireTask() {
+    public synchronized String requireTask() {
         if (tasks.isEmpty()) {
-            return null;
+            return "{}";  // 返回空 JSON 避免 Worker 解析错误
+        } else {
+            return JSON.toJSONString(tasks.poll());
         }
-        return tasks.poll();
     }
 
-    public synchronized void informRequireTask(String ip, int port) {
-        // 将任务信息以JSON格式发送到主节点，通知它当前任务已经准备就绪
-        System.out.println("MasterStarter: Informing worknode node1");
 
-//        String taskJson = JSON.toJSONString(t);
-//        System.out.println(taskJson);
-        // 假设使用RPC发送任务信息
-        call(ip, port, "requireTask", new Object[]{});
-//        System.out.println(taskJson);
+    private Record assignTaskToNode(Task task) {
+        String address = allocateAddress();
+        String[] parts = address.split(":");
+        String host = parts[0];
+        int port = Integer.parseInt(parts[1]);
 
+        Record record = new Record(task.getId(), host, port);
+        taskRecords.put(task.getId(), record);
+
+        return record;
     }
+
+
+    public synchronized void informRequireTask() {
+        // 遍历 know_hosts 列表，逐个向工作节点发送任务请求
+        System.out.println("MasterStarter: Informing worknode " );
+        for (String ip : know_hosts) {
+            System.out.println("MasterStarter: Informing worknode " + ip);
+            call(ip, 9993, "requireTask", new Object[]{});
+            System.out.println("Success");
+        }
+    }
+
+
 
 
     /**
@@ -125,6 +185,7 @@ public class DistributedJobStarter extends RpcNode {
             Task t = new Task(allocateId(), source.getName(), source.getParallelism(), allocateAddress(), source);
             tasksMap.put(t.getId(), t);
             tasks.add(t);
+            System.out.println("tasks"+tasks);
             // For each source, traverse the operations connected to it.
             // 为每个源递归的创建联系
             traverseComponent(source, executor);
@@ -194,6 +255,12 @@ public class DistributedJobStarter extends RpcNode {
             Task t = new Task(allocateId(), operator.getName(), operator.getParallelism(), allocateAddress(), operator);
             tasksMap.put(t.getId(), t);
             tasks.add(t);
+            System.out.println("tasks2"+tasks);
+            for (Task task : tasks) {
+
+                Record record = assignTaskToNode(task);
+                System.out.println("Task assigned: " + record);
+            }
 
             // 为组件添加连接
             connectionList.add(new Connection(executor, operatorExecutor));
@@ -214,7 +281,9 @@ public class DistributedJobStarter extends RpcNode {
             }
             count++;
             ip = know_hosts.get(count - 1);
-            port = String.valueOf((int) ((Math.random() * (15000 - 14000)) + 14000));
+//            port = String.valueOf((int) ((Math.random() * (15000 - 14000)) + 14000));
+            port =String.valueOf(9993);
+            System.out.println(port);
             address = ip + ":" + port;
         } while (allocatedAddresses.contains(address));
 
@@ -223,5 +292,12 @@ public class DistributedJobStarter extends RpcNode {
 
     private Integer allocateId() {
         return id++;
+    }
+    public void record(){
+        for (Task task : tasks) {
+            System.out.println(task);
+            Record record = assignTaskToNode(task);
+            System.out.println("Task assigned: " + record);
+        }
     }
 }
