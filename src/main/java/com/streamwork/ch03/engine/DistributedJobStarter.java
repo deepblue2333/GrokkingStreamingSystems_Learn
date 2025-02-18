@@ -3,6 +3,7 @@ package com.streamwork.ch03.engine;
 import java.util.*;
 import java.util.concurrent.ConcurrentLinkedDeque;
 
+import com.alibaba.fastjson.JSON;
 import com.streamwork.ch03.api.Component;
 import com.streamwork.ch03.api.Job;
 import com.streamwork.ch03.api.Operator;
@@ -36,6 +37,13 @@ public class DistributedJobStarter extends RpcNode {
     // Connections between component executors 组件间的连接器
     private final List<Connection> connectionList = new ArrayList<Connection>();
 
+    public static class Record {
+        int id;
+        String host;
+        int port;
+        Record(int id, String host, int port) {}
+    }
+
     // 把job赋给该实例类
     public DistributedJobStarter(Job job) {
         this.job = job;
@@ -60,6 +68,24 @@ public class DistributedJobStarter extends RpcNode {
 //        startProcesses();
     }
 
+    public void startDistributeTask() {
+        /* ToDo 轮流给每个工作节点指派任务 */
+        informRequireTask("127.0.0.1", 9992);
+        /* ToDo 记录指派信息 */
+        new HashMap<Integer, Record>();
+    }
+
+    public int askNextNodeId(int nodeId) {
+        Task t = findNextNode(nodeId);
+        return t.getId();
+    }
+
+    private Task findNextNode(int nodeId) {
+        /* ToDo 在Dag中找到指定节点的下一个节点 */
+        int nextNodeId = nodeId + 1;
+        return tasksMap.get(nextNodeId);
+    }
+
 
     /**
      * 指派任务
@@ -70,9 +96,21 @@ public class DistributedJobStarter extends RpcNode {
         if (tasks.isEmpty()) {
             return null;
         }
-
         return tasks.poll();
     }
+
+    public synchronized void informRequireTask(String ip, int port) {
+        // 将任务信息以JSON格式发送到主节点，通知它当前任务已经准备就绪
+        System.out.println("MasterStarter: Informing worknode node1");
+
+//        String taskJson = JSON.toJSONString(t);
+//        System.out.println(taskJson);
+        // 假设使用RPC发送任务信息
+        call(ip, port, "requireTask", new Object[]{});
+//        System.out.println(taskJson);
+
+    }
+
 
     /**
      * Create all source and operator executors.

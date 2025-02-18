@@ -28,6 +28,7 @@ public class WorkerStarterTest {
     public void setUp() throws Exception {
         // 初始化 WorkerStarter 实例
         workerStarter = new WorkerStarter();
+        workerStarter.start(9992);
     }
 
     @Test
@@ -60,7 +61,7 @@ public class WorkerStarterTest {
         workerStarter.requireTask();
 
         // 模拟任务信息通知
-        workerStarter.informRequireTask(sourceTask);
+//        workerStarter.informRequireTask(sourceTask);
 
         // 模拟任务的调度与执行
         workerStarter.setupSource(sourceTask);
@@ -78,7 +79,7 @@ public class WorkerStarterTest {
         // 验证 Operator 任务执行
         System.out.println("Simulating WorkerStarter with Operator Task");
         workerStarter.startExecutor(operatorTask);
-        workerStarter.informRequireTask(operatorTask);  // 模拟通知 Operator 任务
+//        workerStarter.informRequireTask(operatorTask);  // 模拟通知 Operator 任务
 
         // 执行操作符任务
         workerStarter.startExecutor(operatorTask);
