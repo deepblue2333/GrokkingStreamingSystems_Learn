@@ -55,10 +55,11 @@ public class WorkerStarter extends RpcNode {
     public void setupSource(Task t) {
         SourceExecutor executor = new SourceExecutor((Source) t.getComponent());
 //        EventQueue downstream = new EventQueue(QUEUE_SIZE);
-        String address = askNextNodeAddress(t.getId());
-        int port = askNextNodePort(t.getId());
-        int id = askNextNodeId(t.getId());
-        DistributedEventQueue downstream = new DistributedEventQueue(address, port, id);
+//        String address = askNextNodeAddress(t.getId());
+//        int port = askNextNodePort(t.getId());
+//        int id = askNextNodeId(t.getId());
+//        DistributedEventQueue downstream = new DistributedEventQueue(address, port, id);
+        DistributedEventQueue downstream = new DistributedEventQueue("127.0.0.1", 9991, 1);
         executor.setOutgoingQueue(downstream);
 //        executor.start();
 
