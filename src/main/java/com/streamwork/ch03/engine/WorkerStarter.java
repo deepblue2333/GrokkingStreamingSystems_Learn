@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.streamwork.ch03.api.*;
 import com.streamwork.ch03.common.Task;
 import com.streamwork.ch03.func.ApplyFunc;
+import com.streamwork.ch03.job.ContinuousVehicleSource;
 import com.streamwork.ch03.rpc.io.RpcNode;
 
 import java.util.*;
@@ -11,6 +12,7 @@ import java.util.concurrent.Executor;
 
 public class WorkerStarter extends RpcNode {
     // 设置队列容量
+    private final Set<Integer> processedTasks = new HashSet<>();
     private final static int QUEUE_SIZE = 64;
     // The job to start
     // List of executors and stream managers执行器队列和流管理器队列
@@ -41,24 +43,51 @@ public class WorkerStarter extends RpcNode {
     }
 
     /* 被调用以获取算子任务 */
-    private synchronized void requireTask() {
+    public synchronized void requireTask() {
+
         Task t = JSON.parseObject(
                 call("127.0.0.1", 9992, "requireTask", new Object[]{}).toString(),
                 Task.class);
-        if (t.getTaskType().equals("Source")) {
+
+        if (t.getTaskType().equals("VehicleSource")) {
             setupSource(t);
+
         } else {
             startExecutor(t);
         }
+        processedTasks.add(t.getId());
     }
+    public synchronized void requireNextTask(int id) {
 
+        Task t = JSON.parseObject(
+                call("127.0.0.1", 9992, "findNextTask", new Object[]{id}).toString(),
+                Task.class);
+
+        if (t.getTaskType().equals("VehicleSource")) {
+            setupSource(t);
+
+        } else {
+            startExecutor(t);
+        }
+        processedTasks.add(t.getId());
+    }
+    // 获取已处理的任务
+    public Set<Integer> getProcessedTasks() {
+        return processedTasks;
+    }
     public void setupSource(Task t) {
-        SourceExecutor executor = new SourceExecutor((Source) t.getComponent());
+        System.out.println(t.getComponent());
+
+        ContinuousVehicleSource vehicleSource = new ContinuousVehicleSource("VehicleSource", 2, 1000);
+//        SourceExecutor executor = new SourceExecutor((Source) t.getComponent());
+        SourceExecutor executor = new SourceExecutor(vehicleSource);
+
 //        EventQueue downstream = new EventQueue(QUEUE_SIZE);
-        String address = askNextNodeAddress(t.getId());
-        int port = askNextNodePort(t.getId());
-        int id = askNextNodeId(t.getId());
-        DistributedEventQueue downstream = new DistributedEventQueue(address, port, id);
+//        String address = askNextNodeAddress(t.getId());
+//        int port = askNextNodePort(t.getId());
+//        int id = askNextNodeId(t.getId());
+
+        DistributedEventQueue downstream = new DistributedEventQueue("127.0.0.2",9993,1);
         executor.setOutgoingQueue(downstream);
 //        executor.start();
 
@@ -67,28 +96,35 @@ public class WorkerStarter extends RpcNode {
         e.id = t.getId();
         e.parallelism = t.getParallelism();
         executorMap.put(e.id, e);
+        requireNextTask(t.getId());
     }
 
-    private int askNextNodeId(Integer id) {
-        int nextId = JSON.parseObject(
-                call("127.0.0.1", 9992, "askNextNodeId", new Object[]{id}).toString(),
-                int.class);
-        return nextId;
-    }
-
-    private int askNextNodePort(Integer id) {
-        int port = JSON.parseObject(
-                call("127.0.0.1", 9992, "askNextNodePort", new Object[]{id}).toString(),
-                int.class);
-        return port;
-    }
-
-    private String askNextNodeAddress(Integer id) {
-        String address = JSON.parseObject(
-            call("127.0.0.1", 9992, "askNextNodeAddress", new Object[]{id}).toString(),
-            String.class);
-        return address;
-    }
+//    private Task askNetxTask(){
+//        Task t = JSON.parseObject(
+//                call("127.0.0.1", 9992, "findNextTask", new Object[]{}).toString(),
+//                Task.class);
+//        return t;
+//    }
+//    private int askNextNodeId(Integer id) {
+//        int nextId = JSON.parseObject(
+//                call("127.0.0.1", 9992, "askNextNodeId", new Object[]{id}).toString(),
+//                int.class);
+//        return nextId;
+//    }
+//
+//    private int askNextNodePort(Integer id) {
+//        int port = JSON.parseObject(
+//                call("127.0.0.1", 9992, "askNextNodePort", new Object[]{id}).toString(),
+//                int.class);
+//        return port;
+//    }
+//
+//    private String askNextNodeAddress(Integer id) {
+//        String address = JSON.parseObject(
+//            call("127.0.0.1", 9992, "askNextNodeAddress", new Object[]{id}).toString(),
+//            String.class);
+//        return address;
+//    }
 
     public void startSource(int id) {
         MyExecutor mySourceExecutor = executorMap.get(id);

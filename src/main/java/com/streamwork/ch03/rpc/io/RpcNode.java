@@ -95,6 +95,7 @@ public class RpcNode {
     }
 
     public Object call(String ipaddress ,int port, String methodName, Object[] args) {
+
         RpcRequest request = new RpcRequest();
         request.setRequestId(UUID.randomUUID().toString());
         request.setMethodName(methodName);
@@ -106,6 +107,7 @@ public class RpcNode {
         request.setParameterTypes(parameterTypes);
         RpcChannel rpcChannel = new RpcChannel(ipaddress, port);
         rpcChannel.setRequest(request);
+
         try {
             bind(rpcChannel);
             Object ret = executorService.submit(rpcChannel).get();

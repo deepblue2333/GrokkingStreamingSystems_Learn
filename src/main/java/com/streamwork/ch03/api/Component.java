@@ -1,13 +1,17 @@
 package com.streamwork.ch03.api;
 
+import com.alibaba.fastjson.annotation.JSONType;
+
 import java.io.Serializable;
 
 /**
  * The base class for all components, including Source and Operator.
  * 为组件增加了并行度选项
  */
+//@JSONType(seeAlso = {Source.class, Operator.class}, typeKey = "componentType")
 public class Component implements Serializable {
   private static final long serialVersionUID = 528858207266782093L;
+
 
   private String name;
   private int parallelism;

@@ -362,3 +362,245 @@ Sat Feb 15 16:32:43 CST 2025-method: receiveEventparams: [Ljava.lang.Object;@1cf
 Sat Feb 15 16:32:43 CST 2025-method: receiveEventparams: [Ljava.lang.Object;@137d4b resp: 1
 Sat Feb 15 16:32:43 CST 2025-method: receiveEventparams: [Ljava.lang.Object;@742f619c resp: 1
 Sat Feb 15 16:32:43 CST 2025-method: receiveEventparams: [Ljava.lang.Object;@20c72571 resp: 1
+Thu Feb 20 23:35:28 CST 2025-server started on port:9991
+Thu Feb 20 23:35:28 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:28 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:28 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:28 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:28 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:28 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:29 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:29 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:29 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:29 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:29 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:29 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:29 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:29 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:29 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:29 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:29 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:29 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:29 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:29 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:30 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:30 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:30 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:30 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:30 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:30 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:30 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:30 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:30 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:30 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:30 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:30 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:30 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:30 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:31 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:31 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:31 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:31 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:31 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:31 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:31 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:31 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:31 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:31 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:31 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:31 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:31 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:31 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:32 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:32 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:32 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:32 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:32 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:32 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:32 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:32 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:32 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:32 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:32 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:32 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:32 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:32 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:33 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:33 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:33 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:33 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:33 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:33 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:33 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:33 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:33 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:33 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:33 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:33 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:33 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:33 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:34 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Thu Feb 20 23:35:34 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedSocketException: Cannot assign requested address: connect: /127.0.0.1:0
+Fri Feb 21 00:25:46 CST 2025-server started on port:9992
+Fri Feb 21 00:25:46 CST 2025-server started on port:9993
+Fri Feb 21 00:27:48 CST 2025-server started on port:9992
+Fri Feb 21 00:27:48 CST 2025-server started on port:9993
+Fri Feb 21 00:28:00 CST 2025-server started on port:9992
+Fri Feb 21 00:28:00 CST 2025-server started on port:9993
+Fri Feb 21 00:28:41 CST 2025-server started on port:9992
+Fri Feb 21 00:28:41 CST 2025-server started on port:9993
+Fri Feb 21 00:29:03 CST 2025-server started on port:9992
+Fri Feb 21 00:29:03 CST 2025-server started on port:9993
+Fri Feb 21 00:29:52 CST 2025-server started on port:9992
+Fri Feb 21 00:29:52 CST 2025-server started on port:9993
+Fri Feb 21 00:30:20 CST 2025-server started on port:9992
+Fri Feb 21 00:30:21 CST 2025-server started on port:9993
+Fri Feb 21 00:31:09 CST 2025-server started on port:9992
+Fri Feb 21 00:31:09 CST 2025-server started on port:9993
+Fri Feb 21 00:31:36 CST 2025-server started on port:9991
+Fri Feb 21 00:31:36 CST 2025-server started on port:9993
+Fri Feb 21 00:33:01 CST 2025-server started on port:9992
+Fri Feb 21 00:33:01 CST 2025-server started on port:9993
+Fri Feb 21 00:35:15 CST 2025-server started on port:9992
+Fri Feb 21 00:35:15 CST 2025-server started on port:9993
+Fri Feb 21 00:35:41 CST 2025-server started on port:9992
+Fri Feb 21 00:35:41 CST 2025-server started on port:9993
+Fri Feb 21 00:37:11 CST 2025-server started on port:9992
+Fri Feb 21 00:37:11 CST 2025-server started on port:9993
+Fri Feb 21 00:37:38 CST 2025-server started on port:9992
+Fri Feb 21 00:37:38 CST 2025-server started on port:9993
+Fri Feb 21 00:37:48 CST 2025-server started on port:9992
+Fri Feb 21 00:37:48 CST 2025-server started on port:9993
+Fri Feb 21 00:37:59 CST 2025-server started on port:9992
+Fri Feb 21 00:37:59 CST 2025-server started on port:9993
+Fri Feb 21 00:37:59 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: getsockopt: /127.0.0.2:9991
+Fri Feb 21 00:38:17 CST 2025-server started on port:9992
+Fri Feb 21 00:38:17 CST 2025-server started on port:9993
+Fri Feb 21 00:38:17 CST 2025-fail to call err, io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: getsockopt: /127.0.0.1:9991
+Fri Feb 21 00:38:35 CST 2025-server started on port:9992
+Fri Feb 21 00:38:36 CST 2025-server started on port:9993
+Fri Feb 21 00:39:19 CST 2025-server started on port:9992
+Fri Feb 21 00:39:19 CST 2025-server started on port:9993
+Fri Feb 21 00:40:09 CST 2025-server started on port:9992
+Fri Feb 21 00:40:09 CST 2025-server started on port:9993
+Fri Feb 21 00:40:41 CST 2025-server started on port:9992
+Fri Feb 21 00:40:41 CST 2025-server started on port:9993
+Fri Feb 21 00:42:19 CST 2025-server started on port:9992
+Fri Feb 21 00:42:19 CST 2025-server started on port:9993
+Fri Feb 21 00:43:01 CST 2025-server started on port:9992
+Fri Feb 21 00:43:01 CST 2025-server started on port:9993
+Fri Feb 21 00:43:33 CST 2025-server started on port:9992
+Fri Feb 21 00:43:33 CST 2025-server started on port:9993
+Fri Feb 21 00:45:37 CST 2025-server started on port:9992
+Fri Feb 21 00:45:37 CST 2025-server started on port:9993
+Fri Feb 21 00:45:37 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14297","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 00:46:05 CST 2025-server started on port:9992
+Fri Feb 21 00:46:05 CST 2025-server started on port:9993
+Fri Feb 21 00:46:05 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14003","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 00:46:29 CST 2025-server started on port:9992
+Fri Feb 21 00:46:29 CST 2025-server started on port:9993
+Fri Feb 21 00:46:29 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14187","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 00:48:23 CST 2025-server started on port:9992
+Fri Feb 21 00:48:23 CST 2025-server started on port:9993
+Fri Feb 21 00:48:23 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14473","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 00:48:43 CST 2025-server started on port:9992
+Fri Feb 21 00:48:43 CST 2025-server started on port:9993
+Fri Feb 21 00:48:43 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14557","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 00:49:17 CST 2025-server started on port:9992
+Fri Feb 21 00:49:18 CST 2025-server started on port:9993
+Fri Feb 21 00:49:18 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14572","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 00:52:38 CST 2025-server started on port:9992
+Fri Feb 21 00:52:38 CST 2025-server started on port:9993
+Fri Feb 21 00:52:38 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14071","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 00:53:08 CST 2025-server started on port:9992
+Fri Feb 21 00:53:08 CST 2025-server started on port:9993
+Fri Feb 21 00:53:09 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14463","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 00:54:42 CST 2025-server started on port:9992
+Fri Feb 21 00:54:42 CST 2025-server started on port:9993
+Fri Feb 21 00:54:42 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14441","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 00:55:00 CST 2025-server started on port:9992
+Fri Feb 21 00:55:00 CST 2025-server started on port:9993
+Fri Feb 21 00:55:01 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14915","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 00:55:28 CST 2025-server started on port:9992
+Fri Feb 21 00:55:28 CST 2025-server started on port:9993
+Fri Feb 21 00:55:28 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14456","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 00:55:52 CST 2025-server started on port:9992
+Fri Feb 21 00:55:52 CST 2025-server started on port:9993
+Fri Feb 21 00:55:52 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14135","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 00:56:35 CST 2025-server started on port:9992
+Fri Feb 21 00:56:35 CST 2025-server started on port:9993
+Fri Feb 21 00:56:35 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14735","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 01:05:46 CST 2025-server started on port:9992
+Fri Feb 21 01:05:46 CST 2025-server started on port:9993
+Fri Feb 21 01:05:46 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14394","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 01:06:11 CST 2025-server started on port:9992
+Fri Feb 21 01:06:11 CST 2025-server started on port:9993
+Fri Feb 21 01:06:11 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14060","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 01:16:27 CST 2025-server started on port:9992
+Fri Feb 21 01:16:28 CST 2025-server started on port:9993
+Fri Feb 21 01:16:28 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14452","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 01:17:18 CST 2025-server started on port:9992
+Fri Feb 21 01:17:18 CST 2025-server started on port:9993
+Fri Feb 21 01:17:19 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14565","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 01:20:10 CST 2025-server started on port:9992
+Fri Feb 21 01:20:10 CST 2025-server started on port:9993
+Fri Feb 21 01:20:10 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14704","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 01:32:33 CST 2025-server started on port:9992
+Fri Feb 21 01:32:33 CST 2025-server started on port:9993
+Fri Feb 21 01:32:33 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14240","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 01:35:09 CST 2025-server started on port:9992
+Fri Feb 21 01:35:09 CST 2025-server started on port:9993
+Fri Feb 21 01:35:09 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14391","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 01:38:11 CST 2025-server started on port:9992
+Fri Feb 21 01:38:11 CST 2025-server started on port:9993
+Fri Feb 21 01:38:11 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@4bbf6d0e resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14712","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 01:38:48 CST 2025-server started on port:9992
+Fri Feb 21 01:38:48 CST 2025-server started on port:9993
+Fri Feb 21 01:38:48 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14755","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 08:28:53 CST 2025-server started on port:9992
+Fri Feb 21 08:28:53 CST 2025-server started on port:9993
+Fri Feb 21 08:28:53 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14632","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 08:31:31 CST 2025-server started on port:9992
+Fri Feb 21 08:31:31 CST 2025-server started on port:9993
+Fri Feb 21 08:31:31 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14013","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 08:31:31 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@5456afaa resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14395","parallelism":2,"taskType":"VehicleMapper"}
+Fri Feb 21 08:33:43 CST 2025-server started on port:9992
+Fri Feb 21 08:33:43 CST 2025-server started on port:9993
+Fri Feb 21 08:33:43 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14772","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 08:33:43 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@5456afaa resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14860","parallelism":2,"taskType":"VehicleMapper"}
+Fri Feb 21 08:35:57 CST 2025-server started on port:9992
+Fri Feb 21 08:35:57 CST 2025-server started on port:9993
+Fri Feb 21 08:35:57 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14745","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 08:35:57 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@bb9e6dc resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14775","parallelism":2,"taskType":"VehicleMapper"}
+Fri Feb 21 08:37:19 CST 2025-server started on port:9992
+Fri Feb 21 08:37:19 CST 2025-server started on port:9993
+Fri Feb 21 08:37:20 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14597","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 08:37:20 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@5456afaa resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14399","parallelism":2,"taskType":"VehicleMapper"}
+Fri Feb 21 08:38:13 CST 2025-server started on port:9992
+Fri Feb 21 08:38:13 CST 2025-server started on port:9993
+Fri Feb 21 08:38:13 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14639","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 08:38:13 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@5456afaa resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14395","parallelism":2,"taskType":"VehicleMapper"}
+Fri Feb 21 08:48:56 CST 2025-server started on port:9992
+Fri Feb 21 08:48:56 CST 2025-server started on port:9993
+Fri Feb 21 08:48:56 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14397","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 08:50:08 CST 2025-server started on port:9992
+Fri Feb 21 08:50:08 CST 2025-server started on port:9993
+Fri Feb 21 08:50:08 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14970","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 08:50:34 CST 2025-server started on port:9992
+Fri Feb 21 08:50:34 CST 2025-server started on port:9993
+Fri Feb 21 08:50:34 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14282","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 08:52:55 CST 2025-server started on port:9992
+Fri Feb 21 08:52:55 CST 2025-server started on port:9993
+Fri Feb 21 08:52:55 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14421","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 08:53:41 CST 2025-server started on port:9992
+Fri Feb 21 08:53:41 CST 2025-server started on port:9993
+Fri Feb 21 08:53:41 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14352","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 08:53:41 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@71a08423 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14309","parallelism":2,"taskType":"VehicleMapper"}
+Fri Feb 21 09:36:35 CST 2025-server started on port:9992
+Fri Feb 21 09:36:35 CST 2025-server started on port:9993
+Fri Feb 21 09:36:36 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14146","parallelism":2,"taskType":"VehicleSource"}
+Fri Feb 21 09:36:36 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@212f3837 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14505","parallelism":2,"taskType":"VehicleMapper"}
+Mon Feb 24 20:46:24 CST 2025-server started on port:9992
+Mon Feb 24 20:46:24 CST 2025-server started on port:9993
+Mon Feb 24 20:46:24 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@30b6ffe0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14344","parallelism":2,"taskType":"VehicleSource"}
+Mon Feb 24 20:46:24 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@27d44db8 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14343","parallelism":2,"taskType":"VehicleMapper"}
