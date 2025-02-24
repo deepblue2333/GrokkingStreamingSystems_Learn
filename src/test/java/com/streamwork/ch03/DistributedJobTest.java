@@ -6,7 +6,6 @@ import com.streamwork.ch03.api.*;
 import com.streamwork.ch03.func.ApplyFunc;
 import com.streamwork.ch03.job.*;
 import com.streamwork.ch03.engine.*;
-import com.streamwork.ch03.rpc.io.RpcNode;
 
 import java.util.List;
 import java.util.Map;

@@ -172,9 +172,9 @@ public class WorkerStarter extends RpcNode {
 
 }
 
-    /**
-     * Create all source and operator executors.
-     */
+/**
+ * Create all source and operator executors.
+ */
 //    private void setupComponentExecutors() {
 //        // Start from sources in the job and traverse components to create executors
 //        // 为每个源都创建执行器
@@ -187,7 +187,7 @@ public class WorkerStarter extends RpcNode {
 //        }
 //    }
 
-    /* 找到指派的算子 */
+/* 找到指派的算子 */
 //    private ComponentExecutor findExecutor(Task task) {
 //        for (Source source: job.getSources()) {
 //            if (source.getName().equals(task.getTaskType())){
