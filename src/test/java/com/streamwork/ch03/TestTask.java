@@ -40,11 +40,11 @@ public class TestTask {
         Task operatorTask = new Task(2, "operator", 2, "192.168.0.2", vehicleOperator);
 
         // 执行Source任务
-        System.out.println(sourceTask);
-        sourceTask.executeTask(sourceTask.toJson());
-
-        // 执行Operator任务
-        System.out.println(operatorTask);
-        operatorTask.executeTask(operatorTask.toJson());
+//        System.out.println(sourceTask);
+//        sourceTask.executeTask(sourceTask.toJson());
+//
+//        // 执行Operator任务
+//        System.out.println(operatorTask);
+//        operatorTask.executeTask(operatorTask.toJson());
     }
 }

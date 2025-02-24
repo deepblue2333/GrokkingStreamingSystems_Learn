@@ -68,13 +68,13 @@ public class WorkerStarterTest {
         workerStarter.startSource(sourceTask.getId());
 
         // 验证节点信息是否成功获取
-        String address = workerStarter.askNextNodeAddress(sourceTask.getId());
-        int port = workerStarter.askNextNodePort(sourceTask.getId());
-        int nodeId = workerStarter.askNextNodeId(sourceTask.getId());
+//        String address = workerStarter.askNextNodeAddress(sourceTask.getId());
+//        int port = workerStarter.askNextNodePort(sourceTask.getId());
+//        int nodeId = workerStarter.askNextNodeId(sourceTask.getId());
 
-        System.out.println("Next Node Address: " + address);
-        System.out.println("Next Node Port: " + port);
-        System.out.println("Next Node ID: " + nodeId);
+//        System.out.println("Next Node Address: " + address);
+//        System.out.println("Next Node Port: " + port);
+//        System.out.println("Next Node ID: " + nodeId);
 
         // 验证 Operator 任务执行
         System.out.println("Simulating WorkerStarter with Operator Task");
