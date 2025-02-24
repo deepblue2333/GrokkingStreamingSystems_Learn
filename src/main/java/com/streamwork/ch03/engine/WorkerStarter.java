@@ -99,32 +99,33 @@ public class WorkerStarter extends RpcNode {
         requireNextTask(t.getId());
     }
 
-//    private Task askNetxTask(){
-//        Task t = JSON.parseObject(
-//                call("127.0.0.1", 9992, "findNextTask", new Object[]{}).toString(),
-//                Task.class);
-//        return t;
-//    }
-//    private int askNextNodeId(Integer id) {
-//        int nextId = JSON.parseObject(
-//                call("127.0.0.1", 9992, "askNextNodeId", new Object[]{id}).toString(),
-//                int.class);
-//        return nextId;
-//    }
-//
-//    private int askNextNodePort(Integer id) {
-//        int port = JSON.parseObject(
-//                call("127.0.0.1", 9992, "askNextNodePort", new Object[]{id}).toString(),
-//                int.class);
-//        return port;
-//    }
-//
-//    private String askNextNodeAddress(Integer id) {
-//        String address = JSON.parseObject(
-//            call("127.0.0.1", 9992, "askNextNodeAddress", new Object[]{id}).toString(),
-//            String.class);
-//        return address;
-//    }
+    public Task askNetxTask(){
+        Task t = JSON.parseObject(
+                call("127.0.0.1", 9992, "findNextTask", new Object[]{}).toString(),
+                Task.class);
+        return t;
+    }
+
+    public int askNextNodeId(Integer id) {
+        int nextId = JSON.parseObject(
+                call("127.0.0.1", 9992, "askNextNodeId", new Object[]{id}).toString(),
+                int.class);
+        return nextId;
+    }
+
+    public int askNextNodePort(Integer id) {
+        int port = JSON.parseObject(
+                call("127.0.0.1", 9992, "askNextNodePort", new Object[]{id}).toString(),
+                int.class);
+        return port;
+    }
+
+    public String askNextNodeAddress(Integer id) {
+        String address = JSON.parseObject(
+            call("127.0.0.1", 9992, "askNextNodeAddress", new Object[]{id}).toString(),
+            String.class);
+        return address;
+    }
 
     public void startSource(int id) {
         MyExecutor mySourceExecutor = executorMap.get(id);
