@@ -8,6 +8,6 @@ public class Main {
         WorkerStarter workerStarter = new WorkerStarter();
 
         // 执行测试
-        workerStarter.test();
+//        workerStarter.test();
     }
 }

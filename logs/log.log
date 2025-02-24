@@ -477,3 +477,7 @@ Thu Feb 20 23:05:29 CST 2025-method: receiveEventparams: [Ljava.lang.Object;@42b
 Thu Feb 20 23:05:29 CST 2025-method: receiveEventparams: [Ljava.lang.Object;@eede805 resp: 1
 Thu Feb 20 23:05:29 CST 2025-method: receiveEventparams: [Ljava.lang.Object;@4d448e06 resp: 1
 Thu Feb 20 23:05:29 CST 2025-method: receiveEventparams: [Ljava.lang.Object;@330d9d80 resp: 1
+Mon Feb 24 21:25:01 CST 2025-server started on port:9992
+Mon Feb 24 21:25:01 CST 2025-server started on port:9993
+Mon Feb 24 21:25:01 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@5fb759d6 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14717","parallelism":2,"taskType":"VehicleSource"}
+Mon Feb 24 21:25:01 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@ea20ff3 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14998","parallelism":2,"taskType":"VehicleMapper"}
