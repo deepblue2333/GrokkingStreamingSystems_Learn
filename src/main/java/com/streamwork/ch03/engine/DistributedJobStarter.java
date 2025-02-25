@@ -4,6 +4,8 @@ import java.io.*;
 import java.util.*;
 import java.util.concurrent.ConcurrentLinkedDeque;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.streamwork.ch03.api.Component;
 import com.streamwork.ch03.api.Job;
 import com.streamwork.ch03.api.Operator;
@@ -298,7 +300,8 @@ public class DistributedJobStarter extends RpcNode {
 
         // 将 ApplyFunc 对象序列化为 JSON 字符串
         VehicleMapperFunc applyFunc = (VehicleMapperFunc) applyFuncMap.get(id);
-        String serializedFunc = serialize(applyFunc);
+//        String serializedFunc = serialize(applyFunc);
+        String serializedFunc = JSON.toJSONString(applyFunc, SerializerFeature.WriteClassName);
         System.out.println("Serialized ApplyFunc: " + serializedFunc);
         System.out.println(applyFunc);
         // 将 ApplyFunc 对象序列化为 JSON 字符串

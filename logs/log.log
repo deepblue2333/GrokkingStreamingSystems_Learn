@@ -608,3 +608,18 @@ Mon Feb 24 21:23:28 CST 2025-server started on port:9992
 Mon Feb 24 21:23:28 CST 2025-server started on port:9993
 Mon Feb 24 21:23:28 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14144","parallelism":2,"taskType":"VehicleSource"}
 Mon Feb 24 21:23:28 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@74f3ac65 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14552","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 21:04:09 CST 2025-server started on port:9992
+Tue Feb 25 21:04:09 CST 2025-server started on port:9993
+Tue Feb 25 21:04:09 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@686121ab resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 21:04:47 CST 2025-server started on port:9992
+Tue Feb 25 21:04:47 CST 2025-server started on port:9993
+Tue Feb 25 21:05:30 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@29d1cf4c resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 21:07:28 CST 2025-server started on port:9992
+Tue Feb 25 21:07:28 CST 2025-server started on port:9993
+Tue Feb 25 21:07:34 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@1d43ded7 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 21:09:22 CST 2025-server started on port:9992
+Tue Feb 25 21:09:22 CST 2025-server started on port:9993
+Tue Feb 25 21:09:24 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@6df7ab0c resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 21:13:45 CST 2025-server started on port:9992
+Tue Feb 25 21:13:45 CST 2025-server started on port:9993
+Tue Feb 25 21:13:55 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@2effc392 resp: {}

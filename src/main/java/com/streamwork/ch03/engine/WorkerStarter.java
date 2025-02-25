@@ -6,6 +6,8 @@ import com.streamwork.ch03.common.Task;
 import com.streamwork.ch03.func.ApplyFunc;
 import com.streamwork.ch03.func.VehicleMapperFunc;
 import com.streamwork.ch03.job.ContinuousVehicleSource;
+import com.streamwork.ch03.job.VehicleEvent;
+import com.streamwork.ch03.job.VehicleMapper;
 import com.streamwork.ch03.rpc.io.RpcNode;
 
 import java.io.ByteArrayInputStream;
@@ -47,16 +49,16 @@ public class WorkerStarter extends RpcNode {
     }
     public synchronized void requireApplyFunc(Integer id) throws IOException, ClassNotFoundException {
         // 调用远程方法并得到返回的 JSON 字符串
-
-        String serializedFunc = (String) call("127.0.0.1", 9992, "requireApplyFunc", new Object[]{id});
+        String serializedFunc =  JSON.parseObject(call("127.0.0.1", 9992, "requireApplyFunc", new Object[]{id}).toString(), String.class);;
         System.out.println("xxxx");
         System.out.println("Received Serialized ApplyFunc (byte array): " + serializedFunc);
         // 反序列化 JSON 字符串为 ApplyFunc 对象
-        VehicleMapperFunc deserializedFunc = (VehicleMapperFunc) deserialize(serializedFunc);
-        System.out.println("Deserialized ApplyFunc: " + deserializedFunc);
-
-        // 被调用后获取到的 ApplyFunc 对象
-        System.out.println("3333 " + deserializedFunc);
+        ApplyFunc applyFunc = JSON.parseObject(serializedFunc, ApplyFunc.class);
+//        VehicleMapperFunc deserializedFunc = (VehicleMapperFunc) deserialize(serializedFunc);
+//        System.out.println("Deserialized ApplyFunc: " + deserializedFunc);
+//
+//        // 被调用后获取到的 ApplyFunc 对象
+//        System.out.println("3333 " + deserializedFunc);
     }
     public static Object deserialize(String serializedObj) throws IOException, ClassNotFoundException {
         if (serializedObj == null || serializedObj.isEmpty()) {
