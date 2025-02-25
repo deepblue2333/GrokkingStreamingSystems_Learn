@@ -4,9 +4,12 @@ package com.streamwork.ch03;
 
 import com.streamwork.ch03.api.*;
 import com.streamwork.ch03.func.ApplyFunc;
+import com.streamwork.ch03.func.VehicleMapperFunc;
 import com.streamwork.ch03.job.*;
 import com.streamwork.ch03.engine.*;
 
+import java.io.*;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -16,19 +19,24 @@ public class DistributedJobTest {
     public static void main(String[] args) throws Exception {
         // 创建源任务：模拟车辆事件
         ContinuousVehicleSource vehicleSource = new ContinuousVehicleSource("VehicleSource", 2, 1000);
+
 //        System.out.println(vehicleSource);
         // 创建操作符任务：我们通过实现 ApplyFunc 来定义每个操作符的行为
-        ApplyFunc vehicleMapperFunc = new ApplyFunc() {
-            @Override
-            public void apply(Event inputEvent, List<Event> eventCollector) {
-                // 这里的处理逻辑是将车辆事件进行映射
-                Event outputEvent = new VehicleEvent(inputEvent.getData() + "_map");
-                eventCollector.add(outputEvent);
-                System.out.println("VehicleMapper applied: " + outputEvent.getData());
-            }
-        };
+//        ApplyFunc vehicleMapperFunc = new ApplyFunc() {
+//            private static final long serialVersionUID = 1L;  // 确保唯一标识符
+//
+//            @Override
+//            public void apply(Event inputEvent, List<Event> eventCollector) {
+//                // 这里的处理逻辑是将车辆事件进行映射
+//                Event outputEvent = new VehicleEvent(inputEvent.getData() + "_map");
+//                eventCollector.add(outputEvent);
+//                System.out.println("VehicleMapper applied: " + outputEvent.getData());
+//            }
+//        };
+        ApplyFunc vehicleMapperFunc = new VehicleMapperFunc();
+        System.out.println("vehicleMapperFunc"+vehicleMapperFunc);
+        // 序列化
         DistributedOperator vehicleMapper = new DistributedOperator("VehicleMapper", 2, vehicleMapperFunc);
-
         ApplyFunc vehicleCounterFunc = new ApplyFunc() {
             @Override
             public void apply(Event inputEvent, List<Event> eventCollector) {
@@ -38,7 +46,7 @@ public class DistributedJobTest {
             }
         };
         DistributedOperator vehicleCounter = new DistributedOperator("VehicleCounter", 2, vehicleCounterFunc);
-
+        System.out.println(vehicleCounterFunc);
         // 创建 Job 并将源任务和操作符任务连接
         Job job = new Job("VehicleJob");
         Stream stream = job.addSource(vehicleSource); // 添加源任务并获取流
@@ -46,15 +54,19 @@ public class DistributedJobTest {
         // 通过流将操作符连接到任务中
         stream.applyOperator(vehicleMapper)
                 .applyOperator(vehicleCounter);
-        System.out.println(stream);
+
+
 
         // 创建并启动作业
         DistributedJobStarter jobStarter = new DistributedJobStarter(job);
         jobStarter.start();
-
+        jobStarter.storeApplyFunc(vehicleMapperFunc);
+        jobStarter.storeApplyFunc(vehicleCounterFunc);
         // 创建并启动工作节点
         WorkerStarter workerStarter = new WorkerStarter();
         workerStarter.start(9993);  // 工作节点监听端口
+        workerStarter.requireApplyFunc(1);
+
         workerStarter.requireTask();
 //         在工作节点启动后，通过主节点调用 `startDistributeTask` 方法来分发任务
 //        DistributedJobStarter jobStarterForDistribution = new DistributedJobStarter(job);
@@ -84,5 +96,19 @@ public class DistributedJobTest {
     private static void checkTaskFlow() {
         // 你可以在这里进行更详细的验证，检查每个操作符是否按预期执行
         System.out.println("Task flow verified successfully.");
+    }
+
+    public static byte[] serialize(Serializable obj) throws IOException {
+        ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+        try (ObjectOutputStream objectOutputStream = new ObjectOutputStream(byteArrayOutputStream)) {
+            objectOutputStream.writeObject(obj);
+        }
+        return byteArrayOutputStream.toByteArray();
+    }
+    public static Object deserialize(byte[] data) throws IOException, ClassNotFoundException {
+        ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(data);
+        try (ObjectInputStream objectInputStream = new ObjectInputStream(byteArrayInputStream)) {
+            return objectInputStream.readObject();
+        }
     }
 }

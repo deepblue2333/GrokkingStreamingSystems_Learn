@@ -1,15 +1,17 @@
 package com.streamwork.ch03.engine;
 
+import java.io.*;
 import java.util.*;
 import java.util.concurrent.ConcurrentLinkedDeque;
 
-import com.alibaba.fastjson.JSON;
 import com.streamwork.ch03.api.Component;
 import com.streamwork.ch03.api.Job;
 import com.streamwork.ch03.api.Operator;
 import com.streamwork.ch03.api.Source;
 import com.streamwork.ch03.api.Stream;
 import com.streamwork.ch03.common.Task;
+import com.streamwork.ch03.func.ApplyFunc;
+import com.streamwork.ch03.func.VehicleMapperFunc;
 import com.streamwork.ch03.rpc.io.RpcNode;
 
 public class DistributedJobStarter extends RpcNode {
@@ -20,7 +22,7 @@ public class DistributedJobStarter extends RpcNode {
     private int id = 0;
 
     // The job to start
-    private final Job job;
+    public final Job job;
     // List of executors and stream managers执行器队列和流管理器队列
     private final List<ComponentExecutor> executorList = new ArrayList<ComponentExecutor>();
     private final List<EventDispatcher> dispatcherList = new ArrayList<EventDispatcher>();
@@ -36,7 +38,8 @@ public class DistributedJobStarter extends RpcNode {
 
     // Connections between component executors 组件间的连接器
     private final List<Connection> connectionList = new ArrayList<Connection>();
-
+    private static Map<Integer, ApplyFunc> applyFuncMap = new HashMap<>();
+    private static int funcId = 1; // 用于生成唯一的 ID
     // 把job赋给该实例类
     public DistributedJobStarter(Job job) {
         this.job = job;
@@ -106,6 +109,7 @@ public class DistributedJobStarter extends RpcNode {
         if (tasks.isEmpty()) {
             return null;
         }
+        System.out.println("TASKS"+tasks);
 
         return tasks.poll();
 
@@ -158,10 +162,13 @@ public class DistributedJobStarter extends RpcNode {
         // Start from sources in the job and traverse components to create executors
         // 为每个源都创建执行器
         for (Source source: job.getSources()) {
+
             SourceExecutor executor = new SourceExecutor(source);
             executorList.add(executor);
 
             Task t = new Task(allocateId(), source.getName(), source.getParallelism(), allocateAddress(), source);
+
+
             tasksMap.put(t.getId(), t);
             tasks.add(t);
             // For each source, traverse the operations connected to it.
@@ -224,13 +231,15 @@ public class DistributedJobStarter extends RpcNode {
 
     private void traverseComponent(Component component, ComponentExecutor executor) {
         Stream stream = component.getOutgoingStream();
-
+        System.out.println(stream);
         for (Operator operator: stream.getAppliedOperators()) {
-
+            System.out.println(operator);
             OperatorExecutor operatorExecutor = new OperatorExecutor(operator);
             executorList.add(operatorExecutor);
 
             Task t = new Task(allocateId(), operator.getName(), operator.getParallelism(), allocateAddress(), operator);
+
+
             tasksMap.put(t.getId(), t);
             tasks.add(t);
             System.out.println("tasks2"+tasks);
@@ -280,4 +289,32 @@ public class DistributedJobStarter extends RpcNode {
     private Integer allocateId() {
         return id++;
     }
+    public void storeApplyFunc(ApplyFunc applyFunc) {
+        applyFuncMap.put(funcId++, applyFunc);
+        System.out.println("4444"+applyFuncMap);
+    }
+
+    public synchronized String requireApplyFunc(Integer id) throws IOException {
+
+        // 将 ApplyFunc 对象序列化为 JSON 字符串
+        VehicleMapperFunc applyFunc = (VehicleMapperFunc) applyFuncMap.get(id);
+        String serializedFunc = serialize(applyFunc);
+        System.out.println("Serialized ApplyFunc: " + serializedFunc);
+        System.out.println(applyFunc);
+        // 将 ApplyFunc 对象序列化为 JSON 字符串
+//        String serializedApplyFunc = JSON.toJSONString(applyFunc);
+        System.out.println(serializedFunc);
+        // 返回序列化后的 JSON 字符串
+        return serializedFunc;
+    }
+    public static String serialize(Serializable obj) throws IOException {
+        ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+        try (ObjectOutputStream objectOutputStream = new ObjectOutputStream(byteArrayOutputStream)) {
+            objectOutputStream.writeObject(obj);
+        }
+
+        // 将字节数组转换为 Base64 编码的字符串
+        return Base64.getEncoder().encodeToString(byteArrayOutputStream.toByteArray());
+    }
+
 }
