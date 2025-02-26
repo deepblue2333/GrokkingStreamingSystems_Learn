@@ -16,4 +16,14 @@ public class Task {
 //    @JSONField(name = "componentType")
 //    private String componentType;
     private Component component;
+
+    public String toString() {
+        return "Task{" +
+                "id=" + id +
+                ", taskType='" + taskType + '\'' +
+                ", parallelism=" + parallelism +
+                ", ipaddress='" + ipaddress + '\'' +
+                ", component=" + (component != null ? component.getClass().getSimpleName() : "null") +
+                '}';
+    }
 }

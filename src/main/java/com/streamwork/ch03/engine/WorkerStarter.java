@@ -4,7 +4,6 @@ import com.alibaba.fastjson.JSON;
 import com.streamwork.ch03.api.*;
 import com.streamwork.ch03.common.Task;
 import com.streamwork.ch03.func.ApplyFunc;
-import com.streamwork.ch03.func.VehicleMapperFunc;
 import com.streamwork.ch03.job.ContinuousVehicleSource;
 import com.streamwork.ch03.rpc.io.RpcNode;
 
@@ -12,7 +11,8 @@ import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.util.*;
-import java.util.concurrent.Executor;
+
+import static com.streamwork.ch03.engine.DistributedJobStarter.OperatorMap;
 
 public class WorkerStarter extends RpcNode {
     // 设置队列容量
@@ -45,18 +45,21 @@ public class WorkerStarter extends RpcNode {
         setPort(port);
         serve();
     }
-    public synchronized void requireApplyFunc(Integer id) throws IOException, ClassNotFoundException {
+    public synchronized ApplyFunc requireApplyFunc(Integer id) throws IOException, ClassNotFoundException {
         // 调用远程方法并得到返回的 JSON 字符串
+        System.out.println(call("127.0.0.1", 9992, "requireApplyFunc", new Object[]{id}));
+        String serializedFunc =  JSON.parseObject(call("127.0.0.1", 9992, "requireApplyFunc", new Object[]{id}).toString(), String.class);;
 
-        String serializedFunc = (String) call("127.0.0.1", 9992, "requireApplyFunc", new Object[]{id});
-        System.out.println("xxxx");
         System.out.println("Received Serialized ApplyFunc (byte array): " + serializedFunc);
         // 反序列化 JSON 字符串为 ApplyFunc 对象
-        VehicleMapperFunc deserializedFunc = (VehicleMapperFunc) deserialize(serializedFunc);
-        System.out.println("Deserialized ApplyFunc: " + deserializedFunc);
-
-        // 被调用后获取到的 ApplyFunc 对象
-        System.out.println("3333 " + deserializedFunc);
+        ApplyFunc applyFunc = JSON.parseObject(serializedFunc, ApplyFunc.class);
+        System.out.println(applyFunc);
+        return applyFunc;
+//        VehicleMapperFunc deserializedFunc = (VehicleMapperFunc) deserialize(serializedFunc);
+//        System.out.println("Deserialized ApplyFunc: " + deserializedFunc);
+//
+//        // 被调用后获取到的 ApplyFunc 对象
+//        System.out.println("3333 " + deserializedFunc);
     }
     public static Object deserialize(String serializedObj) throws IOException, ClassNotFoundException {
         if (serializedObj == null || serializedObj.isEmpty()) {
@@ -71,14 +74,14 @@ public class WorkerStarter extends RpcNode {
             return objectInputStream.readObject();
         }
     }
-    public synchronized void requireTask() {
+    public synchronized void requireTask() throws IOException, ClassNotFoundException {
 
         Task t = JSON.parseObject(
                 call("127.0.0.1", 9992, "requireTask", new Object[]{}).toString(),
                 Task.class);
         if (t.getTaskType().equals("VehicleSource")) {
             setupSource(t);
-            System.out.println("成功");
+
 
         } else {
 
@@ -86,28 +89,35 @@ public class WorkerStarter extends RpcNode {
         }
         processedTasks.add(t.getId());
     }
-    public synchronized void requireNextTask(int id) {
-
+    private synchronized Task findNextTask(Integer id){
         Task t = JSON.parseObject(
-                call("127.0.0.1", 9992, "findNextTask", new Object[]{id}).toString(),
-                Task.class);
-
-        if (t.getTaskType().equals("VehicleSource")) {
-            setupSource(t);
-
-        } else {
-            startExecutor(t);
-
-        }
-        processedTasks.add(t.getId());
+                call("127.0.0.1",9992,"findNextTask",new Object[]{id}).toString(),Task.class
+        );
+        return t;
     }
+//    public synchronized void requireNextTask(int id) throws IOException, ClassNotFoundException {
+//
+//        Task t = JSON.parseObject(
+//                call("127.0.0.1", 9992, "findNextTask", new Object[]{id}).toString(),
+//                Task.class);
+//
+//        if (t.getTaskType().equals("VehicleSource")) {
+//            setupSource(t);
+//
+//        } else {
+//            startExecutor(t);
+//
+//        }
+//        processedTasks.add(t.getId());
+//    }
     // 获取已处理的任务
     public Set<Integer> getProcessedTasks() {
         return processedTasks;
     }
-    public void setupSource(Task t) {
+    public void setupSource(Task t) throws IOException, ClassNotFoundException {
+        ContinuousVehicleSource vehicleSource = new ContinuousVehicleSource("VehicleSource", 2, 1000);
 
-        SourceExecutor executor = new SourceExecutor((Source) t.getComponent());
+        SourceExecutor executor = new SourceExecutor((Source) vehicleSource);
 //        SourceExecutor executor = new SourceExecutor(vehicleSource);
 
 //        EventQueue downstream = new EventQueue(QUEUE_SIZE);
@@ -115,16 +125,16 @@ public class WorkerStarter extends RpcNode {
 //        int port = askNextNodePort(t.getId());
 //        int id = askNextNodeId(t.getId());
 
-        DistributedEventQueue downstream = new DistributedEventQueue("127.0.0.2",9993,1);
+        DistributedEventQueue downstream = new DistributedEventQueue("127.0.0.1",9993,1);
         executor.setOutgoingQueue(downstream);
-//        executor.start();
+        executor.start();
 
         MyExecutor e = new MyExecutor();
         e.executor = executor;
         e.id = t.getId();
         e.parallelism = t.getParallelism();
         executorMap.put(e.id, e);
-        requireNextTask(t.getId());
+        requireTask();
     }
 
     public Task askNetxTask(){
@@ -150,8 +160,8 @@ public class WorkerStarter extends RpcNode {
 
     public String askNextNodeAddress(Integer id) {
         String address = JSON.parseObject(
-            call("127.0.0.1", 9992, "askNextNodeAddress", new Object[]{id}).toString(),
-            String.class);
+                call("127.0.0.1", 9992, "askNextNodeAddress", new Object[]{id}).toString(),
+                String.class);
         return address;
     }
 
@@ -160,9 +170,11 @@ public class WorkerStarter extends RpcNode {
         mySourceExecutor.executor.start();
     }
 
-    public void startExecutor(Task t) {
-        System.out.println(t.getComponent());
-        OperatorExecutor operatorExecutor = new OperatorExecutor((Operator) t.getComponent());
+    public void startExecutor(Task t) throws IOException, ClassNotFoundException {
+
+        DistributedOperator distributedOperator = new DistributedOperator(OperatorMap.get(t.getId()).getName(), OperatorMap.get(t.getId()).getParallelism(),requireApplyFunc(t.getId()));
+
+        OperatorExecutor operatorExecutor = new OperatorExecutor(distributedOperator);
         EventDispatcher dispatcher = new EventDispatcher(operatorExecutor);
         // 绑定上游输入队列
         EventQueue upstream = new EventQueue(QUEUE_SIZE);

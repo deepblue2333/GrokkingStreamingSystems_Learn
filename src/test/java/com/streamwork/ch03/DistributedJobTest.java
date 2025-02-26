@@ -2,6 +2,8 @@ package com.streamwork.ch03;
 
 
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.streamwork.ch03.api.*;
 import com.streamwork.ch03.func.ApplyFunc;
 import com.streamwork.ch03.func.VehicleMapperFunc;
@@ -34,9 +36,10 @@ public class DistributedJobTest {
 //            }
 //        };
         ApplyFunc vehicleMapperFunc = new VehicleMapperFunc();
-        System.out.println("vehicleMapperFunc"+vehicleMapperFunc);
+        System.out.println("vehicleMapperFunc" + vehicleMapperFunc);
         // 序列化
         DistributedOperator vehicleMapper = new DistributedOperator("VehicleMapper", 2, vehicleMapperFunc);
+
         ApplyFunc vehicleCounterFunc = new ApplyFunc() {
             @Override
             public void apply(Event inputEvent, List<Event> eventCollector) {
@@ -46,7 +49,9 @@ public class DistributedJobTest {
             }
         };
         DistributedOperator vehicleCounter = new DistributedOperator("VehicleCounter", 2, vehicleCounterFunc);
-        System.out.println(vehicleCounterFunc);
+
+
+        System.out.println("vehicleMapper" + vehicleMapper);
         // 创建 Job 并将源任务和操作符任务连接
         Job job = new Job("VehicleJob");
         Stream stream = job.addSource(vehicleSource); // 添加源任务并获取流
@@ -56,17 +61,16 @@ public class DistributedJobTest {
                 .applyOperator(vehicleCounter);
 
 
-
         // 创建并启动作业
         DistributedJobStarter jobStarter = new DistributedJobStarter(job);
         jobStarter.start();
         jobStarter.storeApplyFunc(vehicleMapperFunc);
         jobStarter.storeApplyFunc(vehicleCounterFunc);
+
         // 创建并启动工作节点
         WorkerStarter workerStarter = new WorkerStarter();
         workerStarter.start(9993);  // 工作节点监听端口
         workerStarter.requireApplyFunc(1);
-
         workerStarter.requireTask();
 //         在工作节点启动后，通过主节点调用 `startDistributeTask` 方法来分发任务
 //        DistributedJobStarter jobStarterForDistribution = new DistributedJobStarter(job);
@@ -80,6 +84,7 @@ public class DistributedJobTest {
         System.out.println("========================");
 // 等待 Worker 处理任务
         Thread.sleep(2000);  // 等待 2 秒，让 Worker 解析任务
+
 
         System.out.println("=== Worker Processed Tasks ===");
         Set<Integer> processedTasks = workerStarter.getProcessedTasks();
@@ -96,19 +101,5 @@ public class DistributedJobTest {
     private static void checkTaskFlow() {
         // 你可以在这里进行更详细的验证，检查每个操作符是否按预期执行
         System.out.println("Task flow verified successfully.");
-    }
-
-    public static byte[] serialize(Serializable obj) throws IOException {
-        ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-        try (ObjectOutputStream objectOutputStream = new ObjectOutputStream(byteArrayOutputStream)) {
-            objectOutputStream.writeObject(obj);
-        }
-        return byteArrayOutputStream.toByteArray();
-    }
-    public static Object deserialize(byte[] data) throws IOException, ClassNotFoundException {
-        ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(data);
-        try (ObjectInputStream objectInputStream = new ObjectInputStream(byteArrayInputStream)) {
-            return objectInputStream.readObject();
-        }
     }
 }

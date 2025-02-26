@@ -1,14 +1,16 @@
 package com.streamwork.ch03.engine;
 
 import java.io.*;
+import java.security.PublicKey;
 import java.util.*;
 import java.util.concurrent.ConcurrentLinkedDeque;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
-import com.streamwork.ch03.api.Component;
-import com.streamwork.ch03.api.Job;
-import com.streamwork.ch03.api.Operator;
-import com.streamwork.ch03.api.Source;
-import com.streamwork.ch03.api.Stream;
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson.serializer.SerializerFeature;
+import com.streamwork.ch03.api.*;
 import com.streamwork.ch03.common.Task;
 import com.streamwork.ch03.func.ApplyFunc;
 import com.streamwork.ch03.func.VehicleMapperFunc;
@@ -31,7 +33,7 @@ public class DistributedJobStarter extends RpcNode {
     private final HashMap<Integer, Task> tasksMap = new HashMap<Integer, Task>();
     private final ConcurrentLinkedDeque<Task> tasks = new ConcurrentLinkedDeque<>();
 
-    private final List<String> know_hosts = new ArrayList<String>(List.of("127.0.0.2", "127.0.0.3"));
+    private final List<String> know_hosts = new ArrayList<String>(List.of("127.0.0.1", "127.0.0.3"));
     private final Set<String> allocatedAddresses = new TreeSet<>();
 
     private int count = 0;
@@ -40,6 +42,9 @@ public class DistributedJobStarter extends RpcNode {
     private final List<Connection> connectionList = new ArrayList<Connection>();
     private static Map<Integer, ApplyFunc> applyFuncMap = new HashMap<>();
     private static int funcId = 1; // 用于生成唯一的 ID
+    public   static Map<Integer,Operator> OperatorMap =new HashMap<>();
+
+    static int operatorId = 1;
     // 把job赋给该实例类
     public DistributedJobStarter(Job job) {
         this.job = job;
@@ -231,9 +236,10 @@ public class DistributedJobStarter extends RpcNode {
 
     private void traverseComponent(Component component, ComponentExecutor executor) {
         Stream stream = component.getOutgoingStream();
-        System.out.println(stream);
+        System.out.println("xxx"+stream.getAppliedOperators());
         for (Operator operator: stream.getAppliedOperators()) {
-            System.out.println(operator);
+            addOperator(operator);
+//            System.out.println(OperatorMap.get(1).getParallelism());
             OperatorExecutor operatorExecutor = new OperatorExecutor(operator);
             executorList.add(operatorExecutor);
 
@@ -279,7 +285,7 @@ public class DistributedJobStarter extends RpcNode {
             }
             count++;
             ip = know_hosts.get(count - 1);
-            port = String.valueOf((int) ((Math.random() * (15000 - 14000)) + 14000));
+            port = String.valueOf((9993));
             address = ip + ":" + port;
         } while (allocatedAddresses.contains(address));
 
@@ -289,16 +295,22 @@ public class DistributedJobStarter extends RpcNode {
     private Integer allocateId() {
         return id++;
     }
+    public void addOperator(Operator operator){
+        OperatorMap.put(operatorId++,operator);
+        System.out.println("4444"+OperatorMap);
+    }
     public void storeApplyFunc(ApplyFunc applyFunc) {
         applyFuncMap.put(funcId++, applyFunc);
-        System.out.println("4444"+applyFuncMap);
+
     }
+
 
     public synchronized String requireApplyFunc(Integer id) throws IOException {
 
         // 将 ApplyFunc 对象序列化为 JSON 字符串
         VehicleMapperFunc applyFunc = (VehicleMapperFunc) applyFuncMap.get(id);
-        String serializedFunc = serialize(applyFunc);
+//        String serializedFunc = serialize(applyFunc);
+        String serializedFunc = JSON.toJSONString(applyFunc, SerializerFeature.WriteClassName);
         System.out.println("Serialized ApplyFunc: " + serializedFunc);
         System.out.println(applyFunc);
         // 将 ApplyFunc 对象序列化为 JSON 字符串
@@ -306,15 +318,6 @@ public class DistributedJobStarter extends RpcNode {
         System.out.println(serializedFunc);
         // 返回序列化后的 JSON 字符串
         return serializedFunc;
-    }
-    public static String serialize(Serializable obj) throws IOException {
-        ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-        try (ObjectOutputStream objectOutputStream = new ObjectOutputStream(byteArrayOutputStream)) {
-            objectOutputStream.writeObject(obj);
-        }
-
-        // 将字节数组转换为 Base64 编码的字符串
-        return Base64.getEncoder().encodeToString(byteArrayOutputStream.toByteArray());
     }
 
 }

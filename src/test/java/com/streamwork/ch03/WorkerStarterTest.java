@@ -32,7 +32,7 @@ public class WorkerStarterTest {
     }
 
     @Test
-    public void testWorkerStarterWithSourceAndOperator() {
+    public void testWorkerStarterWithSourceAndOperator() throws IOException, ClassNotFoundException {
         // 创建一个 Source 实例
         Source continuousVehicleSource = new ContinuousVehicleSource("ContinuousVehicleSource", 2, 1000);
 

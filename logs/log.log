@@ -608,3 +608,1113 @@ Mon Feb 24 21:23:28 CST 2025-server started on port:9992
 Mon Feb 24 21:23:28 CST 2025-server started on port:9993
 Mon Feb 24 21:23:28 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14144","parallelism":2,"taskType":"VehicleSource"}
 Mon Feb 24 21:23:28 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@74f3ac65 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14552","parallelism":2,"taskType":"VehicleMapper"}
+Mon Feb 24 21:27:09 CST 2025-server started on port:9992
+Mon Feb 24 21:27:09 CST 2025-server started on port:9993
+Mon Feb 24 21:27:09 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14869","parallelism":2,"taskType":"VehicleSource"}
+Mon Feb 24 21:27:09 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@21b06556 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14570","parallelism":2,"taskType":"VehicleMapper"}
+Mon Feb 24 21:53:55 CST 2025-server started on port:9992
+Mon Feb 24 21:53:55 CST 2025-server started on port:9993
+Mon Feb 24 21:53:55 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14920","parallelism":2,"taskType":"VehicleSource"}
+Mon Feb 24 21:53:55 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@21b06556 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14462","parallelism":2,"taskType":"VehicleMapper"}
+Mon Feb 24 21:55:11 CST 2025-server started on port:9992
+Mon Feb 24 21:55:11 CST 2025-server started on port:9993
+Mon Feb 24 21:55:11 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14128","parallelism":2,"taskType":"VehicleSource"}
+Mon Feb 24 21:55:11 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@2a6ac8c8 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14016","parallelism":2,"taskType":"VehicleMapper"}
+Mon Feb 24 21:56:42 CST 2025-server started on port:9992
+Mon Feb 24 21:56:42 CST 2025-server started on port:9993
+Mon Feb 24 21:56:42 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14036","parallelism":2,"taskType":"VehicleSource"}
+Mon Feb 24 21:56:42 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@3224a577 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14424","parallelism":2,"taskType":"VehicleMapper"}
+Mon Feb 24 21:57:57 CST 2025-server started on port:9992
+Mon Feb 24 21:57:57 CST 2025-server started on port:9993
+Mon Feb 24 21:57:57 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14964","parallelism":2,"taskType":"VehicleSource"}
+Mon Feb 24 21:57:57 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@3224a577 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14476","parallelism":2,"taskType":"VehicleMapper"}
+Mon Feb 24 21:58:22 CST 2025-server started on port:9992
+Mon Feb 24 21:58:22 CST 2025-server started on port:9993
+Mon Feb 24 21:58:22 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14758","parallelism":2,"taskType":"VehicleSource"}
+Mon Feb 24 21:58:22 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@3224a577 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14702","parallelism":2,"taskType":"VehicleMapper"}
+Mon Feb 24 21:59:53 CST 2025-server started on port:9992
+Mon Feb 24 21:59:53 CST 2025-server started on port:9993
+Mon Feb 24 21:59:53 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14047","parallelism":2,"taskType":"VehicleSource"}
+Mon Feb 24 21:59:53 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@3224a577 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14735","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 08:04:27 CST 2025-server started on port:9992
+Tue Feb 25 08:04:28 CST 2025-server started on port:9993
+Tue Feb 25 08:04:28 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14204","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 08:04:28 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@3224a577 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14727","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 08:04:58 CST 2025-server started on port:9992
+Tue Feb 25 08:04:58 CST 2025-server started on port:9993
+Tue Feb 25 08:04:58 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14643","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 08:04:58 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@3224a577 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14409","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 08:05:17 CST 2025-server started on port:9992
+Tue Feb 25 08:05:17 CST 2025-server started on port:9993
+Tue Feb 25 08:05:17 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14450","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 08:05:18 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@3224a577 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14543","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 09:02:47 CST 2025-server started on port:9992
+Tue Feb 25 09:02:47 CST 2025-server started on port:9993
+Tue Feb 25 09:02:48 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@51a9ad5e resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14607","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 09:02:48 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@3e44f2a5 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14713","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 09:04:30 CST 2025-server started on port:9992
+Tue Feb 25 09:04:30 CST 2025-server started on port:9993
+Tue Feb 25 09:04:30 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@c667f46 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14363","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 09:04:30 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@74f6c5d8 resp: null
+Tue Feb 25 09:05:13 CST 2025-server started on port:9992
+Tue Feb 25 09:05:13 CST 2025-server started on port:9993
+Tue Feb 25 09:05:13 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14721","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 09:05:13 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@3224a577 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14320","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 09:11:15 CST 2025-server started on port:9992
+Tue Feb 25 09:11:15 CST 2025-server started on port:9993
+Tue Feb 25 09:11:16 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14718","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 09:11:16 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@3224a577 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14784","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 09:12:39 CST 2025-server started on port:9992
+Tue Feb 25 09:12:39 CST 2025-server started on port:9993
+Tue Feb 25 09:12:39 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14266","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 09:12:39 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@3224a577 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14916","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 09:13:11 CST 2025-server started on port:9992
+Tue Feb 25 09:13:11 CST 2025-server started on port:9993
+Tue Feb 25 09:13:11 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14582","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 09:13:11 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@3224a577 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14085","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 09:15:54 CST 2025-server started on port:9992
+Tue Feb 25 09:15:55 CST 2025-server started on port:9993
+Tue Feb 25 09:15:55 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14316","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 09:15:55 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@68cecdae resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14817","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 09:16:27 CST 2025-server started on port:9992
+Tue Feb 25 09:16:27 CST 2025-server started on port:9993
+Tue Feb 25 09:16:27 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14723","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 09:16:58 CST 2025-server started on port:9992
+Tue Feb 25 09:16:58 CST 2025-server started on port:9993
+Tue Feb 25 09:16:58 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14952","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 09:16:58 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@21b06556 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14505","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 09:20:42 CST 2025-server started on port:9992
+Tue Feb 25 09:20:42 CST 2025-server started on port:9993
+Tue Feb 25 09:20:42 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14487","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 09:20:42 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@21b06556 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14404","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 09:21:45 CST 2025-server started on port:9992
+Tue Feb 25 09:21:45 CST 2025-server started on port:9993
+Tue Feb 25 09:21:45 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14056","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 09:21:45 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@21b06556 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14570","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 09:22:16 CST 2025-server started on port:9992
+Tue Feb 25 09:22:16 CST 2025-server started on port:9993
+Tue Feb 25 09:22:16 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14759","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 09:22:16 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@1639409 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14500","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 09:22:31 CST 2025-server started on port:9992
+Tue Feb 25 09:22:31 CST 2025-server started on port:9993
+Tue Feb 25 09:22:31 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14734","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 09:22:31 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@1639409 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14442","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 09:55:03 CST 2025-server started on port:9992
+Tue Feb 25 09:55:03 CST 2025-server started on port:9993
+Tue Feb 25 09:55:03 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14994","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 09:55:03 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@1639409 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14744","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 10:11:14 CST 2025-server started on port:9992
+Tue Feb 25 10:11:14 CST 2025-server started on port:9993
+Tue Feb 25 10:11:14 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@c667f46 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14048","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 10:11:14 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@55d5a6f3 resp: null
+Tue Feb 25 10:12:52 CST 2025-server started on port:9992
+Tue Feb 25 10:12:52 CST 2025-server started on port:9993
+Tue Feb 25 10:12:52 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@c667f46 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14066","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 10:12:52 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@61e9f759 resp: null
+Tue Feb 25 10:14:09 CST 2025-server started on port:9992
+Tue Feb 25 10:14:09 CST 2025-server started on port:9993
+Tue Feb 25 10:14:10 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@c667f46 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14887","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 10:16:04 CST 2025-server started on port:9992
+Tue Feb 25 10:16:04 CST 2025-server started on port:9993
+Tue Feb 25 10:16:04 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@c667f46 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14918","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 10:16:22 CST 2025-server started on port:9992
+Tue Feb 25 10:16:22 CST 2025-server started on port:9993
+Tue Feb 25 10:16:22 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14014","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 10:29:45 CST 2025-server started on port:9992
+Tue Feb 25 10:29:45 CST 2025-server started on port:9993
+Tue Feb 25 10:29:45 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14525","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 10:38:30 CST 2025-server started on port:9992
+Tue Feb 25 10:38:30 CST 2025-server started on port:9993
+Tue Feb 25 10:38:30 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14456","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 10:39:14 CST 2025-server started on port:9992
+Tue Feb 25 10:39:14 CST 2025-server started on port:9993
+Tue Feb 25 10:39:14 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14673","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 10:39:42 CST 2025-server started on port:9992
+Tue Feb 25 10:39:43 CST 2025-server started on port:9993
+Tue Feb 25 10:39:43 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14044","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 10:40:13 CST 2025-server started on port:9992
+Tue Feb 25 10:40:13 CST 2025-server started on port:9993
+Tue Feb 25 10:40:13 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14715","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 10:40:28 CST 2025-server started on port:9992
+Tue Feb 25 10:40:28 CST 2025-server started on port:9993
+Tue Feb 25 10:40:28 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14252","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 10:40:45 CST 2025-server started on port:9992
+Tue Feb 25 10:40:45 CST 2025-server started on port:9993
+Tue Feb 25 10:40:46 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14530","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 10:40:46 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@21b06556 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14028","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 10:42:28 CST 2025-server started on port:9992
+Tue Feb 25 10:42:29 CST 2025-server started on port:9993
+Tue Feb 25 10:42:29 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14606","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 10:42:29 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@21b06556 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14406","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 10:44:20 CST 2025-server started on port:9992
+Tue Feb 25 10:44:21 CST 2025-server started on port:9993
+Tue Feb 25 10:44:21 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14968","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 10:44:21 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@2a6ac8c8 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14512","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 10:45:00 CST 2025-server started on port:9992
+Tue Feb 25 10:45:00 CST 2025-server started on port:9993
+Tue Feb 25 10:45:00 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14003","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 10:45:00 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@68cecdae resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14728","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 10:46:11 CST 2025-server started on port:9992
+Tue Feb 25 10:46:12 CST 2025-server started on port:9993
+Tue Feb 25 10:46:12 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14719","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 10:46:12 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@68cecdae resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14769","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 10:46:29 CST 2025-server started on port:9992
+Tue Feb 25 10:46:29 CST 2025-server started on port:9993
+Tue Feb 25 10:46:29 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14966","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 10:46:29 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@1639409 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14702","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 10:47:19 CST 2025-server started on port:9992
+Tue Feb 25 10:47:19 CST 2025-server started on port:9993
+Tue Feb 25 10:47:20 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14906","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 10:47:20 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@21b06556 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14025","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 10:47:54 CST 2025-server started on port:9992
+Tue Feb 25 10:47:54 CST 2025-server started on port:9993
+Tue Feb 25 10:47:54 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14896","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 10:47:54 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@2a6ac8c8 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14780","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 10:51:04 CST 2025-server started on port:9992
+Tue Feb 25 10:51:04 CST 2025-server started on port:9993
+Tue Feb 25 10:51:04 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14651","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 10:51:04 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@77c66578 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14698","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 16:27:19 CST 2025-server started on port:9992
+Tue Feb 25 16:27:19 CST 2025-server started on port:9993
+Tue Feb 25 16:27:19 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14783","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 16:27:19 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@13b3c107 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14862","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 17:01:39 CST 2025-server started on port:9992
+Tue Feb 25 17:01:39 CST 2025-server started on port:9993
+Tue Feb 25 17:01:39 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14124","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 17:04:14 CST 2025-server started on port:9992
+Tue Feb 25 17:04:14 CST 2025-server started on port:9993
+Tue Feb 25 17:04:14 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14133","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 17:04:39 CST 2025-server started on port:9992
+Tue Feb 25 17:04:39 CST 2025-server started on port:9993
+Tue Feb 25 17:04:39 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14062","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 17:05:16 CST 2025-server started on port:9992
+Tue Feb 25 17:05:16 CST 2025-server started on port:9993
+Tue Feb 25 17:05:16 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14072","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 17:06:18 CST 2025-server started on port:9992
+Tue Feb 25 17:06:18 CST 2025-server started on port:9993
+Tue Feb 25 17:06:18 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14257","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 17:07:06 CST 2025-server started on port:9992
+Tue Feb 25 17:07:06 CST 2025-server started on port:9993
+Tue Feb 25 17:07:06 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14215","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 17:07:06 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@3224a577 resp: null
+Tue Feb 25 17:07:28 CST 2025-server started on port:9992
+Tue Feb 25 17:07:28 CST 2025-server started on port:9993
+Tue Feb 25 17:07:29 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14607","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 17:07:29 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@3224a577 resp: null
+Tue Feb 25 17:12:34 CST 2025-server started on port:9992
+Tue Feb 25 17:12:34 CST 2025-server started on port:9993
+Tue Feb 25 17:12:34 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14043","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 17:12:34 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@3224a577 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14412","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 17:17:01 CST 2025-server started on port:9992
+Tue Feb 25 17:17:01 CST 2025-server started on port:9993
+Tue Feb 25 17:17:01 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14784","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 17:17:01 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@3224a577 resp: null
+Tue Feb 25 17:19:20 CST 2025-server started on port:9992
+Tue Feb 25 17:19:20 CST 2025-server started on port:9993
+Tue Feb 25 17:19:20 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]}
+Tue Feb 25 17:19:20 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@3224a577 resp: {"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}
+Tue Feb 25 17:23:16 CST 2025-server started on port:9992
+Tue Feb 25 17:23:16 CST 2025-server started on port:9993
+Tue Feb 25 17:23:16 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14555","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 17:33:14 CST 2025-server started on port:9992
+Tue Feb 25 17:33:14 CST 2025-server started on port:9993
+Tue Feb 25 17:33:14 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14204","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 17:33:47 CST 2025-server started on port:9992
+Tue Feb 25 17:33:47 CST 2025-server started on port:9993
+Tue Feb 25 17:33:47 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14721","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 17:34:56 CST 2025-server started on port:9992
+Tue Feb 25 17:34:56 CST 2025-server started on port:9993
+Tue Feb 25 17:34:56 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14173","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 17:35:22 CST 2025-server started on port:9992
+Tue Feb 25 17:35:22 CST 2025-server started on port:9993
+Tue Feb 25 17:35:22 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14051","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 17:36:27 CST 2025-server started on port:9992
+Tue Feb 25 17:36:27 CST 2025-server started on port:9993
+Tue Feb 25 17:36:27 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14340","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 17:39:43 CST 2025-server started on port:9992
+Tue Feb 25 17:39:43 CST 2025-server started on port:9993
+Tue Feb 25 17:39:43 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14824","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 17:40:41 CST 2025-server started on port:9992
+Tue Feb 25 17:40:41 CST 2025-server started on port:9993
+Tue Feb 25 17:40:41 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14675","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 17:42:05 CST 2025-server started on port:9992
+Tue Feb 25 17:42:05 CST 2025-server started on port:9993
+Tue Feb 25 17:42:05 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14950","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 17:42:42 CST 2025-server started on port:9992
+Tue Feb 25 17:42:42 CST 2025-server started on port:9993
+Tue Feb 25 17:42:42 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]}
+Tue Feb 25 17:43:53 CST 2025-server started on port:9992
+Tue Feb 25 17:43:53 CST 2025-server started on port:9993
+Tue Feb 25 17:43:53 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]}
+Tue Feb 25 17:43:53 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@3224a577 resp: {"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}
+Tue Feb 25 17:43:53 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@544d57e resp: {"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}
+Tue Feb 25 17:47:45 CST 2025-server started on port:9992
+Tue Feb 25 17:47:46 CST 2025-server started on port:9993
+Tue Feb 25 17:47:46 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]}
+Tue Feb 25 17:47:46 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@3224a577 resp: {"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}
+Tue Feb 25 17:47:46 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@544d57e resp: {"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}
+Tue Feb 25 17:49:32 CST 2025-server started on port:9992
+Tue Feb 25 17:49:32 CST 2025-server started on port:9993
+Tue Feb 25 17:49:32 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]}
+Tue Feb 25 17:50:27 CST 2025-server started on port:9992
+Tue Feb 25 17:50:27 CST 2025-server started on port:9993
+Tue Feb 25 17:50:28 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14864","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 17:59:23 CST 2025-server started on port:9992
+Tue Feb 25 17:59:23 CST 2025-server started on port:9993
+Tue Feb 25 17:59:24 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@5f0fd5a0 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14170","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 18:12:29 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@69a0dcb resp: {"component":{"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14894","parallelism":2,"taskType":"VehicleMapper"}
+Tue Feb 25 18:14:43 CST 2025-server started on port:9992
+Tue Feb 25 18:16:52 CST 2025-server started on port:9992
+Tue Feb 25 18:16:52 CST 2025-server started on port:9993
+Tue Feb 25 18:16:52 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14497","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 18:20:38 CST 2025-server started on port:9992
+Tue Feb 25 18:20:38 CST 2025-server started on port:9993
+Tue Feb 25 18:20:38 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14150","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 18:21:06 CST 2025-server started on port:9992
+Tue Feb 25 18:21:06 CST 2025-server started on port:9993
+Tue Feb 25 18:21:07 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14384","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 18:21:32 CST 2025-server started on port:9992
+Tue Feb 25 18:21:32 CST 2025-server started on port:9993
+Tue Feb 25 18:21:32 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14632","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 18:23:39 CST 2025-server started on port:9992
+Tue Feb 25 18:23:39 CST 2025-server started on port:9993
+Tue Feb 25 18:23:39 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14288","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 18:24:09 CST 2025-server started on port:9992
+Tue Feb 25 18:24:09 CST 2025-server started on port:9993
+Tue Feb 25 18:24:09 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14404","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 18:45:41 CST 2025-server started on port:9992
+Tue Feb 25 18:45:41 CST 2025-server started on port:9993
+Tue Feb 25 18:45:42 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@72ef8d15 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14789","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 19:06:40 CST 2025-server started on port:9992
+Tue Feb 25 19:06:40 CST 2025-server started on port:9993
+Tue Feb 25 19:08:35 CST 2025-server started on port:9992
+Tue Feb 25 19:08:35 CST 2025-server started on port:9993
+Tue Feb 25 19:09:39 CST 2025-server started on port:9992
+Tue Feb 25 19:09:39 CST 2025-server started on port:9993
+Tue Feb 25 19:09:39 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@31582b60 resp: {}
+Tue Feb 25 19:10:48 CST 2025-server started on port:9992
+Tue Feb 25 19:10:48 CST 2025-server started on port:9993
+Tue Feb 25 19:10:48 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@31582b60 resp: {}
+Tue Feb 25 19:10:48 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@295cf707 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14849","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 19:12:32 CST 2025-server started on port:9992
+Tue Feb 25 19:12:32 CST 2025-server started on port:9993
+Tue Feb 25 19:12:32 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@382f3dcb resp: {}
+Tue Feb 25 19:12:32 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@295cf707 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14524","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 19:24:08 CST 2025-server started on port:9992
+Tue Feb 25 19:24:08 CST 2025-server started on port:9993
+Tue Feb 25 19:24:08 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@2934bde3 resp: "{}"
+Tue Feb 25 19:24:46 CST 2025-server started on port:9992
+Tue Feb 25 19:24:46 CST 2025-server started on port:9993
+Tue Feb 25 19:24:46 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@2934bde3 resp: "{}"
+Tue Feb 25 19:31:56 CST 2025-server started on port:9992
+Tue Feb 25 19:31:56 CST 2025-server started on port:9993
+Tue Feb 25 19:31:56 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@3c8209ad resp: "{}"
+Tue Feb 25 19:36:04 CST 2025-server started on port:9992
+Tue Feb 25 19:36:05 CST 2025-server started on port:9993
+Tue Feb 25 19:36:05 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@2934bde3 resp: "{}"
+Tue Feb 25 19:39:26 CST 2025-server started on port:9992
+Tue Feb 25 19:39:26 CST 2025-server started on port:9993
+Tue Feb 25 19:39:26 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@e912e3d resp: "{}"
+Tue Feb 25 19:41:16 CST 2025-server started on port:9992
+Tue Feb 25 19:41:16 CST 2025-server started on port:9993
+Tue Feb 25 19:41:16 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@e912e3d resp: "{}"
+Tue Feb 25 19:42:02 CST 2025-server started on port:9992
+Tue Feb 25 19:42:02 CST 2025-server started on port:9993
+Tue Feb 25 19:42:02 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@e912e3d resp: "{}"
+Tue Feb 25 19:43:09 CST 2025-server started on port:9992
+Tue Feb 25 19:43:09 CST 2025-server started on port:9993
+Tue Feb 25 19:43:09 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@7173f63b resp: "{}"
+Tue Feb 25 19:44:44 CST 2025-server started on port:9992
+Tue Feb 25 19:44:44 CST 2025-server started on port:9993
+Tue Feb 25 19:44:44 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@7173f63b resp: "{}"
+Tue Feb 25 19:47:21 CST 2025-server started on port:9992
+Tue Feb 25 19:47:21 CST 2025-server started on port:9993
+Tue Feb 25 19:47:21 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@436c81a3 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14414","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 19:47:44 CST 2025-server started on port:9992
+Tue Feb 25 19:47:44 CST 2025-server started on port:9993
+Tue Feb 25 19:47:44 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@455b6df1 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14018","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 19:53:23 CST 2025-server started on port:9992
+Tue Feb 25 19:53:23 CST 2025-server started on port:9993
+Tue Feb 25 19:53:23 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@455b6df1 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14895","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 19:56:52 CST 2025-server started on port:9992
+Tue Feb 25 19:56:52 CST 2025-server started on port:9993
+Tue Feb 25 19:56:52 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@4ddbbdf8 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14347","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 19:57:36 CST 2025-server started on port:9992
+Tue Feb 25 19:57:36 CST 2025-server started on port:9993
+Tue Feb 25 19:57:36 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@1ab06251 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14021","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 19:58:38 CST 2025-server started on port:9992
+Tue Feb 25 19:58:38 CST 2025-server started on port:9993
+Tue Feb 25 19:58:38 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@14bee915 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14772","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 20:04:27 CST 2025-server started on port:9992
+Tue Feb 25 20:04:28 CST 2025-server started on port:9993
+Tue Feb 25 20:04:28 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@6aa8e115 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14452","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 20:06:32 CST 2025-server started on port:9992
+Tue Feb 25 20:06:32 CST 2025-server started on port:9993
+Tue Feb 25 20:06:32 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@6aa8e115 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14061","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 20:08:23 CST 2025-server started on port:9992
+Tue Feb 25 20:08:23 CST 2025-server started on port:9993
+Tue Feb 25 20:08:23 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@239105a8 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14997","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 20:10:45 CST 2025-server started on port:9992
+Tue Feb 25 20:10:45 CST 2025-server started on port:9993
+Tue Feb 25 20:10:45 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@239105a8 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14105","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 20:12:25 CST 2025-server started on port:9992
+Tue Feb 25 20:12:25 CST 2025-server started on port:9993
+Tue Feb 25 20:12:26 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@239105a8 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14952","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 20:12:51 CST 2025-server started on port:9992
+Tue Feb 25 20:12:51 CST 2025-server started on port:9993
+Tue Feb 25 20:12:51 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@239105a8 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14588","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 20:13:30 CST 2025-server started on port:9992
+Tue Feb 25 20:13:30 CST 2025-server started on port:9993
+Tue Feb 25 20:13:30 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@52c08774 resp: "rO0ABXNyACpjb20uc3RyZWFtd29yay5jaDAzLmZ1bmMuVmVoaWNsZU1hcHBlckZ1bmMAAAAAAAAAAQIAAHhw"
+Tue Feb 25 20:14:44 CST 2025-server started on port:9992
+Tue Feb 25 20:14:44 CST 2025-server started on port:9993
+Tue Feb 25 20:14:45 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@7b341b07 resp: "rO0ABXNyACpjb20uc3RyZWFtd29yay5jaDAzLmZ1bmMuVmVoaWNsZU1hcHBlckZ1bmMAAAAAAAAAAQIAAHhw"
+Tue Feb 25 20:15:16 CST 2025-server started on port:9992
+Tue Feb 25 20:15:16 CST 2025-server started on port:9993
+Tue Feb 25 20:15:16 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@52c08774 resp: "rO0ABXNyACpjb20uc3RyZWFtd29yay5jaDAzLmZ1bmMuVmVoaWNsZU1hcHBlckZ1bmMAAAAAAAAAAQIAAHhw"
+Tue Feb 25 20:19:58 CST 2025-server started on port:9992
+Tue Feb 25 20:19:58 CST 2025-server started on port:9993
+Tue Feb 25 20:19:58 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@7b341b07 resp: "rO0ABXNyACpjb20uc3RyZWFtd29yay5jaDAzLmZ1bmMuVmVoaWNsZU1hcHBlckZ1bmMAAAAAAAAAAQIAAHhw"
+Tue Feb 25 20:20:53 CST 2025-server started on port:9992
+Tue Feb 25 20:20:53 CST 2025-server started on port:9993
+Tue Feb 25 20:20:53 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@7b341b07 resp: "rO0ABXNyACpjb20uc3RyZWFtd29yay5jaDAzLmZ1bmMuVmVoaWNsZU1hcHBlckZ1bmMAAAAAAAAAAQIAAHhw"
+Tue Feb 25 20:22:59 CST 2025-server started on port:9992
+Tue Feb 25 20:22:59 CST 2025-server started on port:9993
+Tue Feb 25 20:22:59 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@52ee6a6f resp: "rO0ABXNyACpjb20uc3RyZWFtd29yay5jaDAzLmZ1bmMuVmVoaWNsZU1hcHBlckZ1bmMAAAAAAAAAAQIAAHhw"
+Tue Feb 25 20:23:29 CST 2025-server started on port:9992
+Tue Feb 25 20:23:29 CST 2025-server started on port:9993
+Tue Feb 25 20:23:29 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@52d29f62 resp: "rO0ABXNyACpjb20uc3RyZWFtd29yay5jaDAzLmZ1bmMuVmVoaWNsZU1hcHBlckZ1bmMAAAAAAAAAAQIAAHhw"
+Tue Feb 25 21:45:11 CST 2025-server started on port:9992
+Tue Feb 25 21:45:11 CST 2025-server started on port:9993
+Tue Feb 25 21:45:11 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@3889e30f resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 21:45:11 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@1b266842 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14026","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 21:45:59 CST 2025-server started on port:9992
+Tue Feb 25 21:45:59 CST 2025-server started on port:9993
+Tue Feb 25 21:46:00 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@52d29f62 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 21:46:00 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@1b266842 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14966","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 21:46:22 CST 2025-server started on port:9992
+Tue Feb 25 21:46:22 CST 2025-server started on port:9993
+Tue Feb 25 21:46:22 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@3889e30f resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 21:46:22 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@1b266842 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14618","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 21:48:38 CST 2025-server started on port:9992
+Tue Feb 25 21:48:38 CST 2025-server started on port:9993
+Tue Feb 25 21:48:38 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@52d29f62 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 21:48:38 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@7a3793c7 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14098","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 22:18:41 CST 2025-server started on port:9992
+Tue Feb 25 22:18:41 CST 2025-server started on port:9993
+Tue Feb 25 22:18:41 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@3889e30f resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:18:41 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@7a3793c7 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14307","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 22:19:40 CST 2025-server started on port:9992
+Tue Feb 25 22:19:40 CST 2025-server started on port:9993
+Tue Feb 25 22:19:40 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@3889e30f resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:19:41 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@4ef782af resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14913","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 22:20:00 CST 2025-server started on port:9992
+Tue Feb 25 22:20:00 CST 2025-server started on port:9993
+Tue Feb 25 22:20:00 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@66ac213b resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:20:00 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@52815fa3 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14715","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 22:28:25 CST 2025-server started on port:9992
+Tue Feb 25 22:28:25 CST 2025-server started on port:9993
+Tue Feb 25 22:28:25 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@3889e30f resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:34:16 CST 2025-server started on port:9992
+Tue Feb 25 22:34:16 CST 2025-server started on port:9993
+Tue Feb 25 22:34:16 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@10cb40f8 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:34:43 CST 2025-server started on port:9992
+Tue Feb 25 22:34:43 CST 2025-server started on port:9993
+Tue Feb 25 22:34:43 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@1db2d2af resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:34:57 CST 2025-server started on port:9992
+Tue Feb 25 22:34:57 CST 2025-server started on port:9993
+Tue Feb 25 22:34:57 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@1db2d2af resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:36:23 CST 2025-server started on port:9992
+Tue Feb 25 22:36:23 CST 2025-server started on port:9993
+Tue Feb 25 22:36:23 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@10cb40f8 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:39:25 CST 2025-server started on port:9992
+Tue Feb 25 22:39:25 CST 2025-server started on port:9993
+Tue Feb 25 22:39:25 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@1aa03174 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:39:25 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@50313382 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14385","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 22:41:43 CST 2025-server started on port:9992
+Tue Feb 25 22:41:43 CST 2025-server started on port:9993
+Tue Feb 25 22:41:43 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@1aa03174 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:41:44 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@42960983 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:41:44 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@6a57ae10 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14376","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 22:43:44 CST 2025-server started on port:9992
+Tue Feb 25 22:43:44 CST 2025-server started on port:9993
+Tue Feb 25 22:43:44 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@1aa03174 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:43:44 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@42960983 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:43:44 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@6a57ae10 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14052","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 22:44:30 CST 2025-server started on port:9992
+Tue Feb 25 22:44:30 CST 2025-server started on port:9993
+Tue Feb 25 22:44:30 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@23d7e769 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:44:31 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@6357fea4 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:44:31 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@6a57ae10 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14080","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 22:49:05 CST 2025-server started on port:9992
+Tue Feb 25 22:49:05 CST 2025-server started on port:9993
+Tue Feb 25 22:49:06 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@1912a9ca resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:49:06 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@729ca400 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:49:06 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@6a57ae10 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14454","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 22:51:43 CST 2025-server started on port:9992
+Tue Feb 25 22:51:43 CST 2025-server started on port:9993
+Tue Feb 25 22:51:43 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@3117e501 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:51:43 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@729ca400 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:51:43 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@6a57ae10 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14779","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 22:52:38 CST 2025-server started on port:9992
+Tue Feb 25 22:52:38 CST 2025-server started on port:9993
+Tue Feb 25 22:52:38 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@352d3334 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:52:38 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@6357fea4 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:53:15 CST 2025-server started on port:9992
+Tue Feb 25 22:53:15 CST 2025-server started on port:9993
+Tue Feb 25 22:53:15 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@1db2d2af resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:53:15 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@729ca400 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:53:57 CST 2025-server started on port:9992
+Tue Feb 25 22:53:57 CST 2025-server started on port:9993
+Tue Feb 25 22:53:57 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@63693fa0 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:53:57 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@3cf5a482 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:54:10 CST 2025-server started on port:9992
+Tue Feb 25 22:54:10 CST 2025-server started on port:9993
+Tue Feb 25 22:54:10 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@10cb40f8 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:54:10 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@42960983 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:54:33 CST 2025-server started on port:9992
+Tue Feb 25 22:54:33 CST 2025-server started on port:9993
+Tue Feb 25 22:54:33 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@63693fa0 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:54:33 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@3cf5a482 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:54:33 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@1863d2fe resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14453","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 22:55:24 CST 2025-server started on port:9992
+Tue Feb 25 22:55:24 CST 2025-server started on port:9993
+Tue Feb 25 22:55:25 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@63693fa0 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:55:25 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@3cf5a482 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:55:25 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@1863d2fe resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14814","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 22:57:50 CST 2025-server started on port:9992
+Tue Feb 25 22:57:51 CST 2025-server started on port:9993
+Tue Feb 25 22:57:51 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@72b27462 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:57:51 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@307027f resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:58:18 CST 2025-server started on port:9992
+Tue Feb 25 22:58:18 CST 2025-server started on port:9993
+Tue Feb 25 22:58:18 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@72b27462 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:58:18 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@307027f resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 22:58:18 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@1863d2fe resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14916","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 23:00:03 CST 2025-server started on port:9992
+Tue Feb 25 23:00:03 CST 2025-server started on port:9993
+Tue Feb 25 23:00:03 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@1db2d2af resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 23:00:03 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@729ca400 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 23:00:03 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@1863d2fe resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14627","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 23:00:37 CST 2025-server started on port:9992
+Tue Feb 25 23:00:37 CST 2025-server started on port:9993
+Tue Feb 25 23:00:37 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@1db2d2af resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 23:00:37 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@729ca400 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 23:00:37 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@1863d2fe resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14449","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 23:04:24 CST 2025-server started on port:9992
+Tue Feb 25 23:04:24 CST 2025-server started on port:9993
+Tue Feb 25 23:04:24 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@1db2d2af resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 23:04:24 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@6357fea4 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 23:04:24 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@1863d2fe resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14980","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 23:05:14 CST 2025-server started on port:9992
+Tue Feb 25 23:05:14 CST 2025-server started on port:9993
+Tue Feb 25 23:05:14 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@63693fa0 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 23:05:14 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@42960983 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 23:05:14 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@1863d2fe resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14523","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 23:06:44 CST 2025-server started on port:9992
+Tue Feb 25 23:06:44 CST 2025-server started on port:9993
+Tue Feb 25 23:06:44 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@1cb40fd4 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 23:06:44 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@293ce4c5 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 23:06:44 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@1fa1cab1 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14503","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 23:07:26 CST 2025-server started on port:9992
+Tue Feb 25 23:07:27 CST 2025-server started on port:9993
+Tue Feb 25 23:07:27 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@4bba1b7f resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 23:07:27 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@3bda3fe6 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 23:09:30 CST 2025-server started on port:9992
+Tue Feb 25 23:09:30 CST 2025-server started on port:9993
+Tue Feb 25 23:09:30 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@1cb40fd4 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 23:09:30 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@293ce4c5 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 23:10:31 CST 2025-server started on port:9992
+Tue Feb 25 23:10:31 CST 2025-server started on port:9993
+Tue Feb 25 23:10:31 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@11060af1 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 23:10:31 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@10b6c1f8 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 23:11:05 CST 2025-server started on port:9992
+Tue Feb 25 23:11:05 CST 2025-server started on port:9993
+Tue Feb 25 23:11:05 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@1dab69b6 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 23:11:05 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@199d3f83 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 23:53:09 CST 2025-server started on port:9992
+Tue Feb 25 23:53:09 CST 2025-server started on port:9993
+Tue Feb 25 23:53:09 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@fc69ba0 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 23:53:09 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@268adfa8 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 23:53:10 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@420a85c4 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14281","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 23:54:23 CST 2025-server started on port:9992
+Tue Feb 25 23:54:23 CST 2025-server started on port:9993
+Tue Feb 25 23:54:23 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@fc69ba0 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 23:54:23 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@268adfa8 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 23:54:23 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@420a85c4 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14567","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 23:55:16 CST 2025-server started on port:9992
+Tue Feb 25 23:55:17 CST 2025-server started on port:9993
+Tue Feb 25 23:55:17 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@fc69ba0 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 23:55:17 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@32719c17 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 23:55:17 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@420a85c4 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14437","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 23:55:49 CST 2025-server started on port:9992
+Tue Feb 25 23:55:49 CST 2025-server started on port:9993
+Tue Feb 25 23:55:49 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@66ac213b resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 23:55:49 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@7fe1beea resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 23:55:49 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@420a85c4 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14727","parallelism":2,"taskType":"VehicleSource"}
+Tue Feb 25 23:56:13 CST 2025-server started on port:9992
+Tue Feb 25 23:56:13 CST 2025-server started on port:9993
+Tue Feb 25 23:56:13 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@66ac213b resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 23:56:13 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@7fe1beea resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Tue Feb 25 23:56:13 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@420a85c4 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14150","parallelism":2,"taskType":"VehicleSource"}
+Wed Feb 26 00:08:27 CST 2025-server started on port:9992
+Wed Feb 26 00:08:27 CST 2025-server started on port:9993
+Wed Feb 26 00:08:27 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@1db2d2af resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 00:08:27 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@729ca400 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 00:08:27 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@420a85c4 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14446","parallelism":2,"taskType":"VehicleSource"}
+Wed Feb 26 00:09:11 CST 2025-server started on port:9992
+Wed Feb 26 00:09:11 CST 2025-server started on port:9993
+Wed Feb 26 00:09:11 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@10cb40f8 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 00:09:11 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@42960983 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 00:09:11 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@420a85c4 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14698","parallelism":2,"taskType":"VehicleSource"}
+Wed Feb 26 00:10:43 CST 2025-server started on port:9992
+Wed Feb 26 00:10:43 CST 2025-server started on port:9993
+Wed Feb 26 00:10:44 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@10cb40f8 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 00:10:44 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@42960983 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 00:10:44 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@420a85c4 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14260","parallelism":2,"taskType":"VehicleSource"}
+Wed Feb 26 00:11:05 CST 2025-server started on port:9992
+Wed Feb 26 00:11:05 CST 2025-server started on port:9993
+Wed Feb 26 00:11:05 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@1db2d2af resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 00:11:05 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@6357fea4 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 00:11:05 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@420a85c4 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14373","parallelism":2,"taskType":"VehicleSource"}
+Wed Feb 26 00:20:37 CST 2025-server started on port:9992
+Wed Feb 26 00:20:37 CST 2025-server started on port:9993
+Wed Feb 26 00:20:37 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@1db2d2af resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 00:20:37 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@729ca400 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 00:20:37 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@420a85c4 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14074","parallelism":2,"taskType":"VehicleSource"}
+Wed Feb 26 00:21:25 CST 2025-server started on port:9992
+Wed Feb 26 00:21:25 CST 2025-server started on port:9993
+Wed Feb 26 00:21:25 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@1db2d2af resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 00:21:25 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@729ca400 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 00:21:25 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@420a85c4 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14469","parallelism":2,"taskType":"VehicleSource"}
+Wed Feb 26 00:21:25 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@367f0ca0 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14460","parallelism":2,"taskType":"VehicleMapper"}
+Wed Feb 26 00:21:25 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@2f0cd8ac resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 00:21:25 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@782b1211 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 00:23:03 CST 2025-server started on port:9992
+Wed Feb 26 00:23:03 CST 2025-server started on port:9993
+Wed Feb 26 00:23:03 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@23d7e769 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 00:23:03 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@4c06830b resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 00:23:03 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@420a85c4 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14922","parallelism":2,"taskType":"VehicleSource"}
+Wed Feb 26 00:23:03 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@2f0cd8ac resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14261","parallelism":2,"taskType":"VehicleMapper"}
+Wed Feb 26 00:23:04 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@782b1211 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 00:23:04 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@5f22859 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:05:36 CST 2025-server started on port:9992
+Wed Feb 26 08:05:36 CST 2025-server started on port:9993
+Wed Feb 26 08:05:37 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@72b27462 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:05:37 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@729ca400 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:05:37 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@420a85c4 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14526","parallelism":2,"taskType":"VehicleSource"}
+Wed Feb 26 08:05:37 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@78a773fd resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14858","parallelism":2,"taskType":"VehicleMapper"}
+Wed Feb 26 08:05:37 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@2f0cd8ac resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:05:37 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@782b1211 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:12:41 CST 2025-server started on port:9992
+Wed Feb 26 08:12:42 CST 2025-server started on port:9993
+Wed Feb 26 08:12:42 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@63693fa0 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:12:42 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@3cf5a482 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:12:42 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@420a85c4 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.2:14316","parallelism":2,"taskType":"VehicleSource"}
+Wed Feb 26 08:12:42 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@2a17346d resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2},"id":2,"ipaddress":"127.0.0.2:14041","parallelism":2,"taskType":"VehicleCounter"}
+Wed Feb 26 08:12:42 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@2a225dd7 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14047","parallelism":2,"taskType":"VehicleMapper"}
+Wed Feb 26 08:12:42 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@5f22859 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:12:42 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@4f5a709a resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:12:43 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:12:43 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:12:44 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:12:44 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:12:45 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:12:45 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:12:46 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:12:46 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:12:47 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:12:47 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:12:48 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:12:48 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:12:49 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:12:49 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:12:50 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:12:50 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:12:51 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:12:51 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:12:52 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:12:52 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:12:53 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:12:53 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:12:55 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:12:55 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:12:56 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:12:56 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:12:57 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:12:57 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:12:58 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:12:58 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:12:59 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:12:59 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:00 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:00 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:01 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:01 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:02 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:02 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:03 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:03 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:04 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:04 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:05 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:05 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:06 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:06 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:07 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:07 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:08 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:08 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:09 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:09 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:10 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:10 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:11 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:11 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:12 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:12 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:14 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:14 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:15 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:15 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:16 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:16 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:17 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:17 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:18 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:18 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:19 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:19 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:20 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:20 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:21 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:21 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:22 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:22 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:23 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:23 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:24 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:24 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:25 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:25 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:26 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:26 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:27 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:27 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:28 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:28 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:29 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:29 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:30 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:30 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:31 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:31 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:32 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:32 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:33 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:33 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:34 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:34 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:36 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:36 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:37 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:37 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:38 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:38 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:39 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:39 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:40 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:40 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:41 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:41 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:42 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:42 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:43 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:43 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:44 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:44 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:45 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:45 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:46 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:46 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:47 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:47 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:48 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:48 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:49 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:49 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:50 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:50 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:51 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:51 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:52 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:52 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:53 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:53 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:54 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:54 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:55 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:55 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:57 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:57 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:58 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:58 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:59 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:13:59 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:00 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:00 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:01 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:01 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:02 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:02 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:03 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:03 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:04 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:04 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:05 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:05 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:06 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:06 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:07 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:07 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:08 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:08 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:09 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:09 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:10 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:10 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:11 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:11 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:12 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:12 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:13 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:13 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:14 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:14 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:15 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:15 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:16 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:16 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:17 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:17 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:19 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:19 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:20 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:20 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:21 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:21 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:22 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:22 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:23 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:23 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:24 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:24 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:25 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:25 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:26 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:26 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:27 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:27 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:28 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:28 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:29 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:29 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:30 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:30 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:31 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:31 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:32 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:32 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:33 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:33 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:34 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:34 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:35 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:35 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:36 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:36 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:37 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:37 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:38 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:38 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:39 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:39 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:41 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:41 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:42 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:42 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:43 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:43 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:44 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:44 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:45 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:45 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:46 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:46 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:47 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:47 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:48 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:48 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:49 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:49 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:50 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:50 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:51 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:51 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:52 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:52 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:53 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:53 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:54 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:54 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:55 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:55 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:56 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:56 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:57 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:57 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:58 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:58 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:59 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:14:59 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:00 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:00 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:02 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:02 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:03 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:03 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:04 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:04 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:05 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:05 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:06 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:06 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:07 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:07 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:08 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:08 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:09 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:09 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:10 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:10 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:11 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:11 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:12 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:12 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:13 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:13 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:14 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:14 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:15 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:15 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:16 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:16 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:17 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:17 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:18 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:18 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:19 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:19 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:20 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:20 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:21 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:21 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:23 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:23 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:24 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:24 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:25 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:25 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:26 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:26 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:27 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:27 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:28 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:28 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:29 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:29 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:30 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:30 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:31 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:31 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:32 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:32 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:33 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:33 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:34 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:34 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:35 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:35 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:36 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:36 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:37 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:37 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:38 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:38 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:39 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:39 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:40 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:40 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:41 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:41 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:42 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:42 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:43 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:43 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:44 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:44 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:46 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:46 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:47 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:47 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.2:14041: invalid IPv6 address literal
+Wed Feb 26 08:15:59 CST 2025-server started on port:9992
+Wed Feb 26 08:15:59 CST 2025-server started on port:9993
+Wed Feb 26 08:15:59 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@10cb40f8 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:15:59 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@42960983 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:15:59 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@420a85c4 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:14108","parallelism":2,"taskType":"VehicleSource"}
+Wed Feb 26 08:15:59 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@32324a28 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2},"id":2,"ipaddress":"127.0.0.1:14397","parallelism":2,"taskType":"VehicleCounter"}
+Wed Feb 26 08:15:59 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@2a225dd7 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:14996","parallelism":2,"taskType":"VehicleMapper"}
+Wed Feb 26 08:15:59 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@446ddff6 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:15:59 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@7ce2fa41 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:16:00 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:14397: invalid IPv6 address literal
+Wed Feb 26 08:16:00 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:14397: invalid IPv6 address literal
+Wed Feb 26 08:16:01 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:14397: invalid IPv6 address literal
+Wed Feb 26 08:16:01 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:14397: invalid IPv6 address literal
+Wed Feb 26 08:16:02 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:14397: invalid IPv6 address literal
+Wed Feb 26 08:16:02 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:14397: invalid IPv6 address literal
+Wed Feb 26 08:16:03 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:14397: invalid IPv6 address literal
+Wed Feb 26 08:16:03 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:14397: invalid IPv6 address literal
+Wed Feb 26 08:16:04 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:14397: invalid IPv6 address literal
+Wed Feb 26 08:16:04 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:14397: invalid IPv6 address literal
+Wed Feb 26 08:16:05 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:14397: invalid IPv6 address literal
+Wed Feb 26 08:16:05 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:14397: invalid IPv6 address literal
+Wed Feb 26 08:16:06 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:14397: invalid IPv6 address literal
+Wed Feb 26 08:16:06 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:14397: invalid IPv6 address literal
+Wed Feb 26 08:16:08 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:14397: invalid IPv6 address literal
+Wed Feb 26 08:16:08 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:14397: invalid IPv6 address literal
+Wed Feb 26 08:16:09 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:14397: invalid IPv6 address literal
+Wed Feb 26 08:16:09 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:14397: invalid IPv6 address literal
+Wed Feb 26 08:17:01 CST 2025-server started on port:9992
+Wed Feb 26 08:17:01 CST 2025-server started on port:9993
+Wed Feb 26 08:17:02 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@63693fa0 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:17:02 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@42960983 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:17:02 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@420a85c4 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:9993","parallelism":2,"taskType":"VehicleSource"}
+Wed Feb 26 08:17:02 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@32324a28 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2},"id":2,"ipaddress":"127.0.0.1:9993","parallelism":2,"taskType":"VehicleCounter"}
+Wed Feb 26 08:17:02 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@2a225dd7 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:9993","parallelism":2,"taskType":"VehicleMapper"}
+Wed Feb 26 08:17:02 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@446ddff6 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:17:02 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@7ce2fa41 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:17:03 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:17:03 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:17:04 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:17:04 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:17:05 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:17:05 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:17:06 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:17:06 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:17:07 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:17:07 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:17:08 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:17:08 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:17:09 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:17:09 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:17:10 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:17:10 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:17:11 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:17:11 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:17:12 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:17:12 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:17:13 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:17:13 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:17:14 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:17:14 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:18:48 CST 2025-server started on port:9992
+Wed Feb 26 08:18:48 CST 2025-server started on port:9993
+Wed Feb 26 08:18:48 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@10cb40f8 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:18:48 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@312c70db resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:18:48 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@420a85c4 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:9993","parallelism":2,"taskType":"VehicleSource"}
+Wed Feb 26 08:18:48 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@4d0ecd43 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2},"id":2,"ipaddress":"127.0.0.1:9993","parallelism":2,"taskType":"VehicleCounter"}
+Wed Feb 26 08:18:48 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@2a225dd7 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:9993","parallelism":2,"taskType":"VehicleMapper"}
+Wed Feb 26 08:18:48 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@25c3c943 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:18:48 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@3e4a8e3 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:18:49 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:18:49 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:00 CST 2025-server started on port:9992
+Wed Feb 26 08:20:00 CST 2025-server started on port:9993
+Wed Feb 26 08:20:01 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@63693fa0 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:20:01 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@42960983 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:20:01 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@420a85c4 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:9993","parallelism":2,"taskType":"VehicleSource"}
+Wed Feb 26 08:20:01 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@32324a28 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2},"id":2,"ipaddress":"127.0.0.1:9993","parallelism":2,"taskType":"VehicleCounter"}
+Wed Feb 26 08:20:01 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@2a225dd7 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:9993","parallelism":2,"taskType":"VehicleMapper"}
+Wed Feb 26 08:20:01 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@446ddff6 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:20:01 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@7ce2fa41 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:20:02 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:02 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:03 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:03 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:04 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:04 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:05 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:05 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:06 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:06 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:07 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:07 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:08 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:08 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:09 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:09 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:10 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:10 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:11 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:11 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:12 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:12 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:13 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:13 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:14 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:14 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:15 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:15 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:16 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:16 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:49 CST 2025-server started on port:9992
+Wed Feb 26 08:20:49 CST 2025-server started on port:9993
+Wed Feb 26 08:20:49 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@1db2d2af resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:20:49 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@6357fea4 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:20:49 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@420a85c4 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:9993","parallelism":2,"taskType":"VehicleSource"}
+Wed Feb 26 08:20:49 CST 2025-method: findNextTaskparams: [Ljava.lang.Object;@42576da7 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2},"id":2,"ipaddress":"127.0.0.1:9993","parallelism":2,"taskType":"VehicleCounter"}
+Wed Feb 26 08:20:49 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@2a225dd7 resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:9993","parallelism":2,"taskType":"VehicleMapper"}
+Wed Feb 26 08:20:49 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@782b1211 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:20:49 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@5f22859 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:20:50 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:50 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:51 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:51 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:52 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:52 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:53 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:53 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:54 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:20:54 CST 2025-fail to call err, java.net.UnknownHostException: 127.0.0.1:9993: invalid IPv6 address literal
+Wed Feb 26 08:22:25 CST 2025-server started on port:9992
+Wed Feb 26 08:22:25 CST 2025-server started on port:9993
+Wed Feb 26 08:22:25 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@10cb40f8 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:22:25 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@42960983 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:22:25 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@420a85c4 resp: {"component":{"interval":1000,"name":"VehicleSource","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2}]},"parallelism":2,"vehiceList":["van","car","truck"]},"id":0,"ipaddress":"127.0.0.1:9993","parallelism":2,"taskType":"VehicleSource"}
+Wed Feb 26 08:22:25 CST 2025-method: requireTaskparams: [Ljava.lang.Object;@78a773fd resp: {"component":{"applyFunc":{},"groupingStrategy":{},"name":"VehicleMapper","outgoingStream":{"appliedOperators":[{"applyFunc":{},"groupingStrategy":{},"name":"VehicleCounter","outgoingStream":{"appliedOperators":[]},"parallelism":2}]},"parallelism":2},"id":1,"ipaddress":"127.0.0.3:9993","parallelism":2,"taskType":"VehicleMapper"}
+Wed Feb 26 08:22:25 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@79d0b4fa resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:22:25 CST 2025-method: requireApplyFuncparams: [Ljava.lang.Object;@446ddff6 resp: "{\"@type\":\"com.streamwork.ch03.func.VehicleMapperFunc\"}"
+Wed Feb 26 08:22:26 CST 2025-method: receiveEventparams: [Ljava.lang.Object;@565b1004 resp: 1
+Wed Feb 26 08:22:26 CST 2025-method: receiveEventparams: [Ljava.lang.Object;@135eb04a resp: 1
+Wed Feb 26 08:22:27 CST 2025-method: receiveEventparams: [Ljava.lang.Object;@7c957b8b resp: 1
+Wed Feb 26 08:22:27 CST 2025-method: receiveEventparams: [Ljava.lang.Object;@703136be resp: 1
+Wed Feb 26 08:22:28 CST 2025-method: receiveEventparams: [Ljava.lang.Object;@4327d32e resp: 1
+Wed Feb 26 08:22:28 CST 2025-method: receiveEventparams: [Ljava.lang.Object;@603c9cd3 resp: 1
+Wed Feb 26 08:22:30 CST 2025-method: receiveEventparams: [Ljava.lang.Object;@7daa234f resp: 1
+Wed Feb 26 08:22:30 CST 2025-method: receiveEventparams: [Ljava.lang.Object;@3c444880 resp: 1
+Wed Feb 26 08:22:31 CST 2025-method: receiveEventparams: [Ljava.lang.Object;@5afcdf4c resp: 1
+Wed Feb 26 08:22:31 CST 2025-method: receiveEventparams: [Ljava.lang.Object;@6365acd4 resp: 1
+Wed Feb 26 08:22:32 CST 2025-method: receiveEventparams: [Ljava.lang.Object;@6f563292 resp: 1
+Wed Feb 26 08:22:32 CST 2025-method: receiveEventparams: [Ljava.lang.Object;@298f3b3b resp: 1
+Wed Feb 26 08:22:33 CST 2025-method: receiveEventparams: [Ljava.lang.Object;@60c4bece resp: 1
+Wed Feb 26 08:22:33 CST 2025-method: receiveEventparams: [Ljava.lang.Object;@57268c92 resp: 1
